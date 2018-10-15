@@ -1,0 +1,55 @@
+/*
+Folha de Estilo de ajuste para o Internet ExploDer 7
+Autores da folhas de estilos: Joares Miranda e Marcelo Glacial
+Design: Marcelo Glacial
+*/
+
+#Capa #Cabecalho {
+	padding-top:13px !important;
+}
+#Cabecalho h1 a {
+	position:relative !important;
+}
+#Busca {
+	top:32px !important;
+	font-size:11px !important;
+}
+
+#Menu {
+	top:89px !important;
+}
+#Menu a {
+	font-weight:normal !important;
+}
+#Internas #MenuServicos a, 
+#Internas #MenuSuplementos a {
+	font-size:11px !important;
+}
+
+#Internas #Colunas a {
+	font-size:12px !important;
+}
+
+#AdSenseRodape {
+	margin:25px 0 10px 0 !important;
+}
+
+#Rodape address {
+	padding:5px 82px 5px 82px !important;
+}
+
+#Internas #Cabecalho h1 {
+	top:27px !important;
+}
+
+#Internas #Cabecalho h1 a {
+	margin-top:35px !important;
+}
+
+#Internas #colunaEditorias {
+	margin-top:15px !important;
+}
+address,
+#Rodape a {
+	font-size:11px !important;
+}

@@ -1,0 +1,10 @@
+/* 
+	Projeto: Diario do Nordeste - Implementacao de Banner Vertical
+	Autor: Joares Wallace Miranda
+	Inicio: 16/09/2009
+*/
+
+#Cadernos #Site { position:relative !important; }
+
+#Cadernos #Destaque_Caderno { margin-top:335px !important; }
+#Cadernos #Top1 { position:absolute; top:246px; right:10px; width:130px; }

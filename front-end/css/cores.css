@@ -1,0 +1,779 @@
+/*  Diario do Nordeste - Reformulacao 
+	Data de início: 04/12/2006
+	Design: Marcelo Glacial
+ */
+ 
+ /* Background: 	background:#DCD9C0; */
+
+
+/* Edicoes Anteriores - mudança de cor da data 
+-------------------------------------------------------------- */
+#Cabecalho p.anteriores {
+	margin:59px 0 0 0;
+	font-weight:bold;
+	background:#DD0000;
+	color: #FFF;
+	padding:2px 10px 3px 10px;
+	border-left:solid 5px #FFF;
+}
+#Cabecalho p.anteriores a {
+	color:#FFF;
+}
+#Cabecalho p.anteriores a:hover {
+	color:#FFFF00;
+}
+
+
+/* Primeiro Caderno  / Cor 1 #00814D /  Cor 2 57AA54
+-------------------------------------------------------------- */
+
+
+/* Caderno 3 / Cor 1 #92278F / Cor 2 #9D85BE
+-------------------------------------------------------------- */
+#Conteudo .caderno3 h3 a,
+#Conteudo .caderno5 h3 a { 
+	background:#92278F;
+}
+#Conteudo #Destaques .caderno3 h3 a , 
+#Conteudo #Destaques .caderno5 h3 a { 
+	background:#FFF;
+}
+
+#Conteudo #Especial.caderno3,
+#Conteudo #Especial.caderno5 {
+	border-color:#92278F;
+}
+#Conteudo #Especial.caderno3 h2,
+#Conteudo #Especial.caderno5 h2 {
+	border-color:#92278F;
+}
+#Conteudo #Especial.caderno3 h3 a,
+#Conteudo #Especial.caderno5 h3 a {
+	background:#FFF;
+	color:#92278F;
+}
+#Conteudo.caderno3 #Caderno h2 a,
+#Conteudo.caderno5 #Caderno h2 a {
+	color:#92278F;
+	border-color:#92278F;
+}
+#Conteudo.caderno3 #Destaques h3 a,
+#Conteudo.caderno3 #Noticia h3,
+#Conteudo.caderno5 #Destaques h3 a,
+#Conteudo.caderno5 #Noticia h3 {
+	color:#92278F;
+}
+#Conteudo #Secundarios .caderno3 h3 a,
+#Conteudo.caderno3 #Secundarios h3 a,
+#Conteudo #Secundarios .caderno5 h3 a,
+#Conteudo.caderno5 #Secundarios h3 a { 
+	background:#FFF;
+	border-color:#92278F;
+	color:#000;
+}
+#Conteudo.caderno3 #Extras #ImagenseNotas h2,
+#Conteudo.caderno3 #Extras #Galeria h2,
+#Conteudo.caderno3 #Extras #Colunas h2,
+#Conteudo.caderno5 #Extras #ImagenseNotas h2,
+#Conteudo.caderno5 #Extras #Galeria h2,
+#Conteudo.caderno5 #Extras #Colunas h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno3.jpg);
+}
+#Conteudo.caderno3 #Extras #Colunas li a,
+#Conteudo.caderno5 #Extras #Colunas li a {
+	background:#9D85BE;
+}
+#Conteudo.caderno3 #Extras strong,
+#Conteudo.caderno5 #Extras strong {
+	color:#92278F;
+}
+#Conteudo.caderno5 #Ultima_hora h2,
+#Conteudo.caderno3 #Ultima_hora h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno3.jpg);
+}
+#Conteudo.caderno3 #Ultima_hora dt,
+#Conteudo.caderno5 #Ultima_hora dt {
+	color:#92278F;
+}
+#Conteudo.caderno3 #Extras #Galeria p,
+#Conteudo.caderno5 #Extras #Galeria p {
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima_caderno3.jpg) 0px 2px no-repeat;
+}
+#Conteudo div.caderno3 ul li,
+#Conteudo.caderno3 #Relacionadas ul li,
+#Conteudo.caderno5 #Relacionadas ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno3.jpg) no-repeat 0 4px;
+}
+#Conteudo.caderno3 #Relacionadas p a,
+#Conteudo.caderno5 #Relacionadas p a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno3.jpg) no-repeat 0 4px;
+}
+
+/* Regional / Cor 1 #946342 / Cor 2 #D7853A
+-------------------------------------------------------------- */
+#Conteudo .caderno16 h3 a { 
+	background:#946342;
+}
+#Conteudo #Destaques .caderno16 h3 a { 
+	background:#FFF;
+}
+#Conteudo #Especial.caderno16 {
+	border-color:#946342;
+}
+#Conteudo #Especial.caderno16 h2 {
+	border-color:#946342;
+}
+#Conteudo #Especial.caderno16 h3 a {
+	background:#FFF;
+	color:#946342;
+}
+#Conteudo.caderno16 #Caderno h2 a {
+	color:#946342;
+	border-color:#946342;
+}
+#Conteudo.caderno16 #Destaques h3 a,
+#Conteudo.caderno16 #Noticia h3 {
+	color:#946342;
+}
+#Conteudo #Secundarios .caderno16 h3 a,
+#Conteudo.caderno16 #Secundarios h3 a { 
+	background:#FFF;
+	border-color:#946342;
+	color:#000;
+}
+#Conteudo.caderno16 #Extras #ImagenseNotas h2,
+#Conteudo.caderno16 #Extras #Galeria h2,
+#Conteudo.caderno16 #Extras #Colunas h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno16.jpg);
+}
+#Conteudo.caderno16 #Extras #Colunas li a {
+	background:#D7853A;
+}
+#Conteudo.caderno16 #Extras strong {
+	color:#946342;
+}
+#Conteudo.caderno16 #Ultima_hora h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno16.jpg);
+}
+#Conteudo.caderno16 #Ultima_hora dt {
+	color:#946342;
+}
+#Conteudo.caderno16 #Extras #Galeria p {
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima_caderno16.jpg) 0px 2px no-repeat;
+}
+#Conteudo.caderno16 #Relacionadas ul li,
+#Conteudo.caderno16 #Relacionadas ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno16.jpg) no-repeat 0 4px;
+}
+#Conteudo.caderno16 #Relacionadas p a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno16.jpg) no-repeat 0 4px;
+}
+
+/* Jogada / Cor 1 #B8292F / Cor 2 #F1614D
+-------------------------------------------------------------- */
+#Conteudo .caderno11 h3 a { 
+	background:#B8292F;
+}
+#Conteudo #Destaques .caderno11 h3 a { 
+	background:#FFF;
+}
+#Conteudo #Especial .caderno11 {
+	border-color:#B8292F;
+}
+#Conteudo #Especial.caderno11 h2 {
+	border-color:#B8292F;
+}
+#Conteudo #Especial.caderno11 h3 a {
+	background:#FFF;
+	color:#B8292F;
+}
+#Conteudo.caderno11 #Caderno h2 a {
+	color:#B8292F;
+	border-color:#B8292F;
+}
+#Conteudo.caderno11 #Destaques h3 a,
+#Conteudo.caderno11 #Noticia h3 {
+	color:#B8292F;
+}
+#Conteudo #Secundarios .caderno11 h3 a,
+#Conteudo.caderno11 #Secundarios h3 a { 
+	background:#FFF;
+	border-color:#B8292F;
+	color:#000;
+}
+#Conteudo.caderno11 #Extras #ImagenseNotas h2,
+#Conteudo.caderno11 #Extras #Galeria h2,
+#Conteudo.caderno11 #Extras #Colunas h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno11.jpg);
+}
+#Conteudo.caderno11 #Extras #Colunas li a {
+	background:#F1614D;
+}
+#Conteudo.caderno11 #Extras strong {
+	color:#B8292F;
+}
+#Conteudo.caderno11 #Ultima_hora h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno11.jpg);
+}
+#Conteudo.caderno11 #Ultima_hora dt {
+	color:#B8292F;
+}
+#Conteudo.caderno11 #Extras #Galeria p {
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima_caderno11.jpg) 0px 2px no-repeat;
+}
+#Conteudo.caderno11 #Relacionadas ul li,
+#Conteudo.caderno11 #Relacionadas ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno11.jpg) no-repeat 0 4px;
+}
+#Conteudo.caderno11 #Relacionadas p a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno11.jpg) no-repeat 0 4px;
+}
+
+/* Negócios - Agronegócios - Exportação / Cor 1 #00558F / Cor 2#5896BE
+------------------------------------------------------------------------------ */
+#Conteudo .caderno9 h3 a,
+#Conteudo .caderno13 h3 a { 
+	background:#00558F;
+}
+#Conteudo #Destaques .caderno9 h3 a,
+#Conteudo #Destaques .caderno13 h3 a { 
+	background:#FFF;
+}
+#Conteudo #Especial.caderno9,
+#Conteudo #Especial.caderno13 {
+	border-color:#00558F;
+}
+#Conteudo #Especial.caderno9 h2,
+#Conteudo #Especial.caderno13 h2 {
+	border-color:#00558F;
+}
+#Conteudo #Especial.caderno9 h3 a,
+#Conteudo #Especial.caderno13 h3 a {
+	background:#FFF;
+	color:#00558F;
+}
+#Conteudo.caderno9 #Caderno h2 a,
+#Conteudo.caderno13 #Caderno h2 a {
+	color:#00558F;
+	border-color:#00558F;
+}
+#Conteudo.caderno9 #Destaques h3 a,
+#Conteudo.caderno9 #Noticia h3,
+#Conteudo.caderno13 #Destaques h3 a,
+#Conteudo.caderno13 #Noticia h3 {
+	color:#00558F;
+}
+#Conteudo #Secundarios .caderno9 h3 a,
+#Conteudo.caderno9 #Secundarios h3 a,
+#Conteudo #Secundarios .caderno13 h3 a,
+#Conteudo.caderno13 #Secundarios h3 a { 
+	background:#FFF;
+	border-color:#00558F;
+	color:#000;
+}
+#Conteudo.caderno9 #Extras #ImagenseNotas h2,
+#Conteudo.caderno9 #Extras #Galeria h2,
+#Conteudo.caderno9 #Extras #Colunas h2,
+#Conteudo.caderno13 #Extras #ImagenseNotas h2,
+#Conteudo.caderno13 #Extras #Galeria h2,
+#Conteudo.caderno13 #Extras #Colunas h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno13.jpg);
+}
+#Conteudo.caderno9 #Extras #Colunas li a,
+#Conteudo.caderno13 #Extras #Colunas li a {
+	background:#5896BE;
+}
+#Conteudo.caderno9 #Extras strong,
+#Conteudo.caderno13 #Extras strong {
+	color:#00558F;
+}
+#Conteudo.caderno9 #Ultima_hora h2,
+#Conteudo.caderno13 #Ultima_hora h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno13.jpg);
+}
+#Conteudo.caderno9 #Ultima_hora dt,
+#Conteudo.caderno13 #Ultima_hora dt {
+	color:#00558F;
+}
+#Conteudo.caderno9 #Extras #Galeria p,
+#Conteudo.caderno13 #Extras #Galeria p {
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima_caderno13.jpg) 0px 2px no-repeat;
+}
+#Conteudo.caderno9 #Relacionadas ul li,
+#Conteudo.caderno9 #Relacionadas ul li,
+#Conteudo.caderno13 #Relacionadas ul li,
+#Conteudo.caderno13 #Relacionadas ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno13.jpg) no-repeat 0 4px;
+}
+#Conteudo.caderno9 #Relacionadas p a,
+#Conteudo.caderno13 #Relacionadas p a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno13.jpg) no-repeat 0 4px;
+}
+
+/* Especiais temáticos???
+-------------------------------------------------------------- 
+.caderno6 { 
+	color:#5087C7;
+	background:#44C8F5;
+}
+
+/* Automóvel 	color:#008E98;	background:#7EBCC6;
+-------------------------------------------------------------- */ 
+#Conteudo .caderno2 h3 a { 
+	background:#008E98;
+}
+#Conteudo #Destaques .caderno2 h3 a { 
+	background:#FFF;
+}
+#Conteudo #Especial.caderno2 {
+	border-color:#008E98;
+}
+#Conteudo #Especial.caderno2 h2 {
+	border-color:#008E98;
+}
+#Conteudo #Especial.caderno2 h3 a {
+	background:#FFF;
+	color:#008E98;
+}
+#Conteudo.caderno2 #Caderno h2 a {
+	color:#008E98;
+	border-color:#008E98;
+}
+#Conteudo.caderno2 #Destaques h3 a,
+#Conteudo.caderno2 #Noticia h3 {
+	color:#008E98;
+}
+#Conteudo #Secundarios .caderno2 h3 a,
+#Conteudo.caderno2 #Secundarios h3 a { 
+	background:#FFF;
+	border-color:#008E98;
+	color:#000;
+}
+#Conteudo.caderno2 #Extras #ImagenseNotas h2,
+#Conteudo.caderno2 #Extras #Galeria h2,
+#Conteudo.caderno2 #Extras #Colunas h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno2.jpg);
+}
+#Conteudo.caderno2 #Extras #Colunas li a {
+	background:#7EBCC6;
+}
+#Conteudo.caderno2 #Extras strong {
+	color:#008E98;
+}
+#Conteudo.caderno2 #Ultima_hora h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno2.jpg);
+}
+#Conteudo.caderno2 #Ultima_hora dt {
+	color:#008E98;
+}
+#Conteudo.caderno2 #Extras #Galeria p {
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima_caderno2.jpg) 0px 2px no-repeat;
+}
+#Conteudo.caderno2 #Relacionadas ul li,
+#Conteudo.caderno2 #Relacionadas ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno2.jpg) no-repeat 0 4px;
+}
+#Conteudo.caderno2 #Relacionadas p a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno2.jpg) no-repeat 0 4px;
+}
+
+/* Eva - Viva 	color:#A52960;		background:#39BB9D;
+-------------------------------------------------------------- */
+#Conteudo .caderno6 h3 a,
+#Conteudo .caderno18 h3 a { 
+	background:#A52960;
+}
+#Conteudo #Destaques .caderno6 h3 a,
+#Conteudo #Destaques .caderno18 h3 a { 
+	background:#FFF;
+}
+
+#Conteudo #Especial.caderno6,
+#Conteudo #Especial.caderno18 {
+	border-color:#A52960;
+}
+#Conteudo #Especial.caderno6 h2,
+#Conteudo #Especial.caderno18 h2 {
+	border-color:#A52960;
+}
+#Conteudo #Especial.caderno6 h3 a,
+#Conteudo #Especial.caderno18 h3 a {
+	background:#FFF;
+	color:#A52960;
+}
+#Conteudo.caderno6 #Caderno h2 a,
+#Conteudo.caderno18 #Caderno h2 a {
+	color:#A52960;
+	border-color:#A52960;
+}
+#Conteudo.caderno6 #Destaques h3 a,
+#Conteudo.caderno6 #Noticia h3,
+#Conteudo.caderno18 #Destaques h3 a,
+#Conteudo.caderno18 #Noticia h3 {
+	color:#A52960;
+}
+#Conteudo #Secundarios .caderno6 h3 a,
+#Conteudo.caderno6 #Secundarios h3 a,
+#Conteudo #Secundarios .caderno18 h3 a,
+#Conteudo.caderno18 #Secundarios h3 a { 
+	background:#FFF;
+	border-color:#A52960;
+	color:#000;
+}
+#Conteudo.caderno6 #Extras #ImagenseNotas h2,
+#Conteudo.caderno6 #Extras #Galeria h2,
+#Conteudo.caderno6 #Extras #Colunas h2,
+#Conteudo.caderno18 #Extras #ImagenseNotas h2,
+#Conteudo.caderno18 #Extras #Galeria h2,
+#Conteudo.caderno18 #Extras #Colunas h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno6.jpg);
+}
+#Conteudo.caderno6 #Extras #Colunas li a,
+#Conteudo.caderno18 #Extras #Colunas li a {
+	background:#39BB9D;
+}
+#Conteudo.caderno6 #Extras strong,
+#Conteudo.caderno18 #Extras strong {
+	color:#A52960;
+}
+#Conteudo.caderno18 #Ultima_hora h2,
+#Conteudo.caderno6 #Ultima_hora h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno6.jpg);
+}
+#Conteudo.caderno6 #Ultima_hora dt,
+#Conteudo.caderno18 #Ultima_hora dt {
+	color:#A52960;
+}
+#Conteudo.caderno6 #Extras #Galeria p,
+#Conteudo.caderno18 #Extras #Galeria p {
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima_caderno6.jpg) 0px 2px no-repeat;
+}
+#Conteudo.caderno6 #Relacionadas ul li,
+#Conteudo.caderno18 #Relacionadas ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno6.jpg) no-repeat 0 4px;
+}
+#Conteudo.caderno6 #Relacionadas p a,
+#Conteudo.caderno18 #Relacionadas p a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno6.jpg) no-repeat 0 4px;
+}
+
+/* Gente 	color:#9E7337;	background:#E6B222;
+-------------------------------------------------------------- */
+#Conteudo .caderno7 h3 a { 
+	background:#9E7337;
+}
+#Conteudo #Destaques .caderno7 h3 a { 
+	background:#FFF;
+}
+#Conteudo #Especial.caderno7 {
+	border-color:#9E7337;
+}
+#Conteudo #Especial.caderno7 h2 {
+	border-color:#9E7337;
+}
+#Conteudo #Especial.caderno7 h3 a {
+	background:#FFF;
+	color:#9E7337;
+}
+#Conteudo.caderno7 #Caderno h2 a {
+	color:#9E7337;
+	border-color:#9E7337;
+}
+#Conteudo.caderno7 #Destaques h3 a,
+#Conteudo.caderno7 #Noticia h3 {
+	color:#9E7337;
+}
+#Conteudo #Secundarios .caderno7 h3 a,
+#Conteudo.caderno7 #Secundarios h3 a { 
+	background:#FFF;
+	border-color:#9E7337;
+	color:#000;
+}
+#Conteudo.caderno7 #Extras #ImagenseNotas h2,
+#Conteudo.caderno7 #Extras #Galeria h2,
+#Conteudo.caderno7 #Extras #Colunas h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno7.jpg);
+}
+#Conteudo.caderno7 #Extras #Colunas li a {
+	background:#E6B222;
+}
+#Conteudo.caderno7 #Extras strong {
+	color:#9E7337;
+}
+#Conteudo.caderno7 #Ultima_hora h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno7.jpg);
+}
+#Conteudo.caderno7 #Ultima_hora dt {
+	color:#9E7337;
+}
+#Conteudo.caderno7 #Extras #Galeria p {
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima_caderno7.jpg) 0px 2px no-repeat;
+}
+#Conteudo.caderno7 #Relacionadas ul li,
+#Conteudo.caderno7 #Relacionadas ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno7.jpg) no-repeat 0 4px;
+}
+#Conteudo.caderno7 #Relacionadas p a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno7.jpg) no-repeat 0 4px;
+}
+
+
+/* Turismo / Cor 1 #9A9A24 / Cor 2 #CADB44
+-------------------------------------------------------------- */
+#Conteudo .caderno17 h3 a { 
+	background:#9A9A24;
+}
+#Conteudo #Destaques .caderno17 h3 a { 
+	background:#FFF;
+}
+#Conteudo #Especial.caderno17 {
+	border-color:#9A9A24;
+}
+#Conteudo #Especial.caderno17 h2 {
+	border-color:#9A9A24;
+}
+#Conteudo #Especial.caderno17 h3 a {
+	background:#FFF;
+	color:#9A9A24;
+}
+#Conteudo.caderno17 #Caderno h2 a {
+	color:#9A9A24;
+	border-color:#9A9A24;
+}
+#Conteudo.caderno17 #Destaques h3 a,
+#Conteudo.caderno17 #Noticia h3 {
+	color:#9A9A24;
+}
+#Conteudo #Secundarios .caderno17 h3 a,
+#Conteudo.caderno17 #Secundarios h3 a { 
+	background:#FFF;
+	border-color:#9A9A24;
+	color:#000;
+}
+#Conteudo.caderno17 #Extras #ImagenseNotas h2,
+#Conteudo.caderno17 #Extras #Galeria h2,
+#Conteudo.caderno17 #Extras #Colunas h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno17.jpg);
+}
+#Conteudo.caderno17 #Extras #Colunas li a {
+	background:#CADB44;
+}
+#Conteudo.caderno17 #Extras strong {
+	color:#9A9A24;
+}
+#Conteudo.caderno17 #Ultima_hora h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno17.jpg);
+}
+#Conteudo.caderno17 #Ultima_hora dt {
+	color:#9A9A24;
+}
+#Conteudo.caderno17 #Extras #Galeria p {
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima_caderno17.jpg) 0px 2px no-repeat;
+}
+#Conteudo.caderno17 #Relacionadas ul li,
+#Conteudo.caderno17 #Relacionadas ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno17.jpg) no-repeat 0 4px;
+}
+#Conteudo.caderno17 #Relacionadas p a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno17.jpg) no-repeat 0 4px;
+}
+
+/* Zoeira / Cor 1: #89C765; / Cor 2: #EC008C
+-------------------------------------------------------------- */
+#Conteudo .caderno24 h3 a { 
+	background:#EC008C;
+}
+#Conteudo #Destaques .caderno24 h3 a { 
+	background:#FFF;
+}
+#Conteudo #Especial.caderno24 {
+	border-color:#EC008C;
+}
+#Conteudo #Especial.caderno24 h2 {
+	border-color:#EC008C;
+}
+#Conteudo #Especial.caderno24 h3 a {
+	background:#FFF;
+	color:#EC008C;
+}
+#Conteudo.caderno24 #Caderno h2 a {
+	color:#EC008C;
+	border-color:#EC008C;
+}
+#Conteudo.caderno24 #Destaques h3 a,
+#Conteudo.caderno24 #Noticia h3 {
+	color:#EC008C;
+}
+#Conteudo #Secundarios .caderno24 h3 a,
+#Conteudo.caderno24 #Secundarios h3 a { 
+	background:#FFF;
+	border-color:#EC008C;
+	color:#000;
+}
+#Conteudo.caderno24 #Extras #ImagenseNotas h2,
+#Conteudo.caderno24 #Extras #Galeria h2,
+#Conteudo.caderno24 #Extras #Colunas h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno24.jpg);
+}
+#Conteudo.caderno24 #Extras #Colunas li a {
+	background:#89C765;
+}
+#Conteudo.caderno24 #Extras strong {
+	color:#EC008C;
+}
+#Conteudo.caderno24 #Ultima_hora h2 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_caderno24.jpg);
+}
+#Conteudo.caderno24 #Ultima_hora dt {
+	color:#EC008C;
+}
+#Conteudo.caderno24 #Extras #Galeria p {
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima_caderno24.jpg) 0px 2px no-repeat;
+}
+#Conteudo.caderno24 #Relacionadas ul li,
+#Conteudo.caderno24 #Relacionadas ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno24.jpg) no-repeat 0 4px;
+}
+#Conteudo.caderno24 #Relacionadas p a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno24.jpg) no-repeat 0 4px;
+}
+
+/* Colunistas
+-------------------------------------------------------------- */
+#Colunas li.colunista1 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista1.jpg) no-repeat right;
+}
+#Colunas li.colunista5 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista5.jpg) no-repeat right;
+}
+#Colunas li.colunista6 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista6.jpg) no-repeat right;
+}
+#Colunas li.colunista7 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista7.jpg) no-repeat right;
+}
+#Colunas li.colunista9 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista9.jpg) no-repeat right;
+}
+#Colunas li.colunista10 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista10.jpg) no-repeat right;
+}
+#Colunas li.colunista11 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista11.jpg) no-repeat right;
+}
+#Colunas li.colunista12 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista12.jpg) no-repeat right;
+}
+#Colunas li.colunista13 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista13.jpg) no-repeat right;
+}
+#Colunas li.colunista14 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista14.jpg) no-repeat right;
+}
+#Colunas li.colunista16 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista16.jpg) no-repeat right;
+}
+#Colunas li.colunista17 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista17.jpg) no-repeat right;
+}
+#Colunas li.colunista19 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista19.jpg) no-repeat right;
+}
+#Colunas li.colunista21 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista21.jpg) no-repeat right;
+}
+#Colunas li.colunista22 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista22.jpg) no-repeat right;
+}
+#Colunas li.colunista23 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista23.jpg) no-repeat right;
+}
+#Colunas li.colunista27 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista26.jpg) no-repeat right;
+}
+#Colunas li.colunista28 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista28.jpg) no-repeat right;
+}
+#Colunas li.colunista29 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista29.jpg) no-repeat right;
+}
+#Colunas li.colunista31 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista31.jpg) no-repeat right;
+}
+#Colunas li.colunista32 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista32.jpg) no-repeat right;
+}
+#Colunas li.colunista33,
+#Colunas li.colunista77 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista33.jpg) no-repeat right;
+}
+#Colunas li.colunista34 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista34.jpg) no-repeat right;
+}
+#Colunas li.colunista35 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista35.jpg) no-repeat right;
+}
+#Colunas li.colunista45 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista45.jpg) no-repeat right;
+}
+#Colunas li.colunista49,
+#Colunas li.colunista75 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista49.jpg) no-repeat right;
+}
+#Colunas li.colunista51 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista51.jpg) no-repeat right;
+}
+#Colunas li.colunista56 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista56.jpg) no-repeat right;
+}
+#Colunas li.colunista60 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista60.jpg) no-repeat right;
+}
+#Colunas li.colunista61 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista61.jpg) no-repeat right;
+}
+#Colunas li.colunista62 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista62.jpg) no-repeat right;
+}
+#Colunas li.colunista63 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista63.jpg) no-repeat right;
+}
+#Colunas li.colunista65 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista65.jpg) no-repeat right;
+}
+#Colunas li.colunista73 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista73.jpg) no-repeat right;
+}
+#Colunas li.colunista80 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista80.jpg) no-repeat right;
+}
+#Colunas li.colunista81 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista81.jpg) no-repeat right;
+}
+#Colunas li.colunista84 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista84.jpg) no-repeat right;
+}
+#Colunas li.colunista85 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista85.jpg) no-repeat right;
+}
+#Colunas li.colunista87 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista87.jpg) no-repeat right;
+}
+#Colunas li.colunista89 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista89.jpg) no-repeat right;
+}
+#Colunas li.colunista92 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista92.jpg) no-repeat right;
+}
+#Colunas li.colunista93 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista93.jpg) no-repeat right;
+}
+#Colunas li.colunista95 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista95.jpg) no-repeat right;
+}
+#Colunas li.colunista96 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista96.jpg) no-repeat right;
+}
+#Colunas li.colunista97 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista97.jpg) no-repeat right;
+}

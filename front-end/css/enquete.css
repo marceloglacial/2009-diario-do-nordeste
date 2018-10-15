@@ -1,0 +1,29 @@
+/*  Diario do Nordeste - Reformulacao 
+	Data de início: 04/12/2006
+	Design: Marcelo Glacial
+ */
+body {
+	margin:10px;
+	color:#000;
+}
+ 
+table {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:90%;
+	color:#333;
+/*	background:#DCD9C0;*/
+}
+.PR_titulo_incs {
+	background:url(http://diariodonordeste.globo.com/img/nuc/menu_titulos.jpg);
+	font-family:"Trebuchet MS", Verdana;
+	font-size:90%;
+	color:#FFF;
+	border-bottom:solid 1px #FFF;
+}
+.titulo_fechar {
+	background:#00814D/* url(http://diariodonordeste.globo.com/img/nuc/rodape_fundo.jpg)*/;
+}
+.fechar {
+	color:#FFF;
+	text-decoration:none;
+}

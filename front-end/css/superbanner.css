@@ -1,0 +1,47 @@
+/* 
+	Projeto: Diario do Nordeste - Implementacao de Superbanner
+	Autor: Marcelo Glacial
+	Inicio: 17/04/2007
+	Ultima Alteracao: 20/02/2007 - por Glacial
+*/
+/*
+#Publicidade #Top {
+	background:url(http://diariodonordeste.globo.com/img/nuc/publicidade_superbanner.jpg) right top no-repeat;
+	margin-left:0px;
+	top:148px;
+	width:754px;
+}
+*/
+
+/*#Online #Menu,*/
+#Online #Destaques,
+#Online #Primeira_pagina,
+#Especial,
+#Assinante #Primeira_pagina {
+	margin-top: 105px;
+}
+
+
+/* #Offline #Menu,*/
+#Offline #Primeira_pagina,
+#Entretenimento {
+	margin-top: 105px;
+}
+
+
+#Caderno {
+	margin-top: 95px;
+}
+
+
+/*#Materia #Menu,*/
+#Materia #Primeira_pagina,
+/*#Ultimas #Menu,*/
+#Ultimas #Primeira_pagina,
+/*#Cadernos #Menu, */
+#Cadernos #Primeira_pagina,
+#Cadernos #Caderno, 
+#Destaque_Caderno,
+#Cadernos #Destaque_Caderno {
+	margin-top: 105px;
+}

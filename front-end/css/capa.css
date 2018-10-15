@@ -1,0 +1,452 @@
+/* Destaques
+----------------------------------------------------*/
+#Online #Destaques {
+	margin:75px 10px 10px 0;
+	float:left;
+	width:323px;
+}
+
+/* Principais
+----------------------------------------------------*/
+#Online #Principais strong a {
+/*	color:#61A541;*/
+	color:#007839;
+}
+#Online #Principais ul li {
+	padding-bottom:5px;
+}
+#Online #Principais ul li strong a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_principal.jpg) no-repeat 0 2px;
+	padding-left:15px;
+}
+
+/* Secundarios
+----------------------------------------------------*/
+#Online #Secundarios {
+	clear:left;
+}
+#Online #Secundarios ul {
+	padding-top:5px;
+	clear:left;
+}
+#Online #Secundarios ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario.jpg) no-repeat 2px 3px;
+	padding-left:12px;
+}
+#Online #Secundarios div.caderno1 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno1.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno5 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno5.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno6 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno6.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno7 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno7.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno9 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno13.jpg) no-repeat 2px 3px;
+}
+/*#Online #Secundarios div.caderno10 ul li { /* Internacional 
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno10.jpg) no-repeat 2px 3px;
+}*/
+#Online #Secundarios div.caderno11 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno11.jpg) no-repeat 2px 3px;
+}
+/* #Online #Secundarios div.caderno12 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno12.jpg) no-repeat 2px 3px;
+}*/
+#Online #Secundarios div.caderno13 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno13.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno19 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno19.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno21 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno21.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno22 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno22.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno27 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno27.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno28 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno28.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno29 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno29.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno31 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno31.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno32 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno32.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno33 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno33.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno34 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno34.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno45 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno45.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno49 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno49.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno51 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno51.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno56 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno56.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno62 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno62.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno65 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno65.jpg) no-repeat 2px 3px;
+}
+#Online #Secundarios div.caderno73 ul li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario_caderno73.jpg) no-repeat 2px 3px;
+}
+
+
+
+
+/* Especial
+----------------------------------------------------*/
+#Especial {
+	margin:7px 0 10px 333px;
+	padding-top:1px;
+	padding-bottom:5px;
+	border-top:solid 1px;
+	border-bottom:solid 10px #007839;
+	min-height:77px;
+}
+#Especial h2 {
+	display:block;
+	border-top:solid 10px #007839;
+	height:0;
+	overflow:hidden;
+	margin:0 0 3px 0;
+}
+#Especial h3 {
+	float:right;
+	display:block;
+	width:205px;
+	_width:202px;
+	text-align:left;
+}
+#Especial h3 a {
+	font-size:100%;
+	color:#007839;
+}
+#Especial img {
+	float:left;
+	margin:3px 5px 0 0;
+}
+
+/* Enquete
+----------------------------------------------------*/
+#Enquete {
+	margin:10px 0 10px 333px;
+	_margin:0 0 10px 333px;
+	clear:right;
+	background:url(http://diariodonordeste.globo.com/img/nuc/menu_titulos.jpg) repeat-x top;
+/*	border-bottom:solid 3px #57AA54;*/
+}
+#Enquete legend {
+	display:block;
+	height:20px;
+	font-family:"Trebuchet MS", Verdana;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:uppercase;
+	padding:5px;
+	*padding-left:0;
+}
+#Enquete p.pergunta {
+	font-weight:bold;
+	display:block;
+	width:50%;
+	float:left;
+	margin:5px 0;
+	*margin:0;
+}
+#Enquete p.opcoes {
+	display:block;
+	width:45%;
+	float:left;
+	margin:5px 0 5px 6px;
+	*margin:0 0 0 6px;
+	padding-left:5px;
+	border-left:dotted 2px #999;
+}
+#Enquete p label {
+	font-weight:normal;
+}
+#Enquete p.botao {
+	margin-top:5px;
+	float:left;
+	clear:left;
+	background:#57AA54;
+}
+#Enquete button {
+	display:block;
+	width:131px;
+	*width:132px;
+	clear:left;
+	margin-left:145px;
+	*margin-left:141px;
+	border-left:solid 2px #FFF;
+	background:#00814D;
+	font-family:"Trebuchet MS", Verdana;
+	font-size:10px;
+	color:#FFFFFF;
+	text-transform:uppercase;
+}
+
+/* Arte e Cultura
+----------------------------------------------------*/
+#Online #ArteCultura {
+	width:130px;
+	float:right;
+	margin:0;
+}
+
+/* Entretenimento
+----------------------------------------------------*/
+#Online #Entretenimento {
+	width:130px;
+	float:right;
+	margin:0;
+	margin:0 15px 0 0;
+}
+#Online #Entretenimento div {
+	background:#FFF;
+}
+#Online #Entretenimento h4 {
+	margin:0;
+	padding:7px 0 0 0;
+}
+#Online #Entretenimento p {
+	margin:0;
+	padding:0;
+}
+
+/* Alo Redacao
+----------------------------------------------------*/
+#Online #Aloredacao {
+	margin:7px 0 10px 333px;
+	clear:right;
+}
+#Online #Aloredacao h2 {
+	display:block;
+	border-top:solid 1px #000;
+	padding-top:1px;
+	margin:0;
+}
+#Online #Aloredacao h2 a {
+	display:block;
+	padding:2px 10px;
+	background:#666;
+/*	background:#836855;*/
+	font-size:50%;
+	text-transform:uppercase;
+	color:#FFF;
+}
+#Online #Aloredacao li {
+	border-bottom:solid 1px #666;
+/*	border-bottom:solid 1px #836855;*/
+	padding:2px 0;
+}
+#Online #Aloredacao strong {
+	letter-spacing:-1px;
+	padding-right:5px;
+	text-transform:uppercase;
+	color:#666;
+/*	color:#836855;*/
+}
+
+/* Colunas
+----------------------------------------------------*/
+#Online #Colunas {
+	margin:7px 0 10px 333px;
+	clear:right;
+}
+#Online #Colunas h2 {
+	display:block;
+	border-top:solid 1px #000;
+	padding-top:1px;
+	margin:0 0 5px 0;
+}
+#Online #Colunas h2 a {
+	display:block;
+	padding:2px 10px;
+	border-bottom:solid 1px #FFF;
+	background:#007839;
+	font-size:50%;
+	text-transform:uppercase;
+	color:#FFF;
+}
+#Online #Colunas li {
+	float:left;
+	width:133px;
+	margin:0 5px 5px 0;
+}
+#Online #Colunas li a {
+	background:#61A541;
+	color:#FFF;
+	display:block;
+	height:31px;
+	overflow:hidden;
+	padding:5px 5px 0 5px;
+	margin-right:39px;
+	line-height:12px;
+}
+
+/* Adsense
+----------------------------------------------------*/
+#Online #Adsense {
+	display:none;
+}
+
+/* Publicidade
+----------------------------------------------------*/
+#Online #Publicidade #Top {
+	margin-left:0px;
+	top:148px;
+}
+/* Menu
+----------------------------------------------------*/
+/*#Online #Menu {
+	margin-top:75px;
+}*/
+#Online #Primeira_pagina {
+	margin-top:75px;
+}
+/* ================================================= */
+/*  CSS Blogs                                        */
+/* ================================================= */
+#Online #BlogCapa {
+	padding-left:335px;
+/*
+	min-height:190px;
+	*min-height:auto;
+*/
+}
+#BlogCapa {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#BlogCapa h3 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_padrao.jpg) repeat-x top;
+	padding:2px 3px;
+	margin-bottom:5px;
+	color:#FFF;
+}
+#BlogCapa h4 {
+	padding:7px;
+/*
+	min-height:45px;
+	_height:45px;
+*/
+	color:#FFF;
+	font-size:100%;
+}
+#BlogCapa p {
+	font-weight:bold;
+	display:block;
+	text-align:right;
+	padding:3px 35px 3px 8px;
+	_width:92px;
+	_float:left;
+	zoom:1;
+}
+#BlogChamada {
+	width:100%;
+	padding-bottom:5px;
+/*
+	width:135px;
+	float:left;
+	margin-right:2px;
+*/
+}
+#BlogChamada a {
+	color:#FFF;
+	text-decoration:none;
+	background:none;
+}
+#BlogChamada a:hover {
+	text-decoration:underline;
+}
+/* CORES  -----------------------------------------------------------------*/
+
+/* Padrao ----------*/
+#BlogChamada h4 {
+	background:#008057;
+}
+#BlogChamada p {
+	background:url(http://diariodonordeste.globo.com/img/blogs/caderno1.jpg) #79C374 right top no-repeat;
+}
+/* Jogada ----------*/
+#BlogChamada.caderno11 h4 {
+	background:#F1614D;
+}
+#BlogChamada.caderno11 p {
+	background:url(http://diariodonordeste.globo.com/img/blogs/caderno11.jpg) #F1614D right top no-repeat;
+}
+/* Negocios ----------*/
+#BlogChamada.caderno13 h4 {
+	background:#5896BE;
+}
+#BlogChamada.caderno13 p {
+	background:url(http://diariodonordeste.globo.com/img/blogs/caderno13.jpg) #5896BE right top no-repeat;
+}
+/* Zona Cyber ----------*/
+#BlogChamada.caderno24 h4 {
+	background:#89C765;
+}
+#BlogChamada.caderno24 p {
+	background:url(http://diariodonordeste.globo.com/img/blogs/caderno24.jpg) #89C765 right top no-repeat;
+}
+
+/* Multimidia -------------- */
+#Multimidia {
+	background:#DBD9C0;
+	clear:both;
+}
+#Multimidia a {
+	text-decoration:none;
+	color:#000;
+}
+#Multimidia a:hover {
+	text-decoration:underline;
+}
+#Multimidia h3 {
+	padding:3px 0;
+	background:#FFF;
+	border-top:solid 3px #57AA54;
+	_padding-top:0;
+}
+#Multimidia div {
+	padding:5px 6px;
+	margin-bottom:2px;
+	border-bottom:solid 1px #FFF;
+	min-height:50px;
+	_height:50px;
+}
+#Multimidia h4 {
+	font-family:"Trebuchet MS", Verdana;
+	font-size:110%;
+}
+#Multimidia img {
+	float:left;
+	margin-right:7px;
+	width:65px;
+	height:49px;
+}
+#Retangulo {
+	display:none;
+}

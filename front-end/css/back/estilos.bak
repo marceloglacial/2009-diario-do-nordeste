@@ -1,0 +1,1116 @@
+/*
+Estilo geral para o site do Diario do Nordeste
+Autores da folhas de estilos: Joares Miranda e Marcelo Glacial
+Design: Marcelo Glacial
+*/
+
+
+/* Resets
+**********************************************************/
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:none;
+}
+
+hr,
+#Navegacao{
+	display:none;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+
+/* Termos Gerais
+**********************************************************/
+html {
+	background:url(../imagens/degrade.jpg) repeat-x 0 55px #CCC;
+}
+
+body {
+	background:url(../imagens/bg-sombra.png) repeat-y top center;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#333;
+}
+
+#Site {
+	width: 970px;
+	margin: 51px auto 0 auto;
+	position: relative;
+	padding-top:1px;
+}
+
+.primeiraChamadaLista { 
+	border:none !important;
+}
+
+/* Cabecalho
+**********************************************************/
+#Cabecalho {
+	background:url(../imagens/topo_fundo.jpg) repeat-x;
+	height:91px;
+	margin-top:18px;
+	padding-top:9px;
+}
+
+#Cabecalho h1 {
+	text-indent:-5000px;
+	overflow:hidden;
+	background:url(../imagens/cabeca_dn.gif) no-repeat bottom left;
+	width:300px;
+	height:82px;
+}
+
+#Cabecalho h1 a {
+	width:300px;
+	height:82px;
+	display:block;
+	position:absolute;
+	z-index:2;
+}
+
+#Cabecalho p {
+	position:absolute;
+	z-index:1;
+	top:63px;
+	right:190px;
+	font-size:11px;
+}
+
+
+/* Busca
+**********************************************************/
+#Busca {
+	position:absolute;
+	top:35px;
+	right:0;
+	width:320px;
+	padding-left:20px;
+	border-left:1px dotted #B2B2B2;
+	text-transform:lowercase;
+}
+
+#Busca strong {
+	width:40px;
+	height:10px;
+	background-color:#DCD8BF;
+	color:#000;
+	text-align:right;
+	padding:4px 10px 8px 35px;
+	margin-right:10px;
+	border:none;
+	float:left;
+}
+
+#Busca legend,
+#Busca label {
+	display:none;
+}
+
+
+#Busca input {
+	padding:2px 5px;
+	border:#CCC solid 1px;
+	border-right:none;
+	width:190px;
+	float:left;
+}
+
+#Busca button {
+	border:#CCC solid 1px;
+	border-left:none;
+	background:#FFF url(../imagens//busca_lupa.jpg) center no-repeat;
+	display:block;
+	float:left;
+	width:23px;
+	height:22px;
+	text-indent:-5000px;
+	cursor:pointer;
+}
+
+#Busca p.edicoesAnteriores {
+	background-color:#EDEBDF;
+	padding:2px 10px;
+	margin-top:5px;
+	text-align:right;
+	font-size:11px;
+}
+
+#Busca p.edicoesAnteriores a {
+	color:#666;
+}
+
+
+/* Alo Redacao
+**********************************************************/
+#AloRedacao {
+	position:absolute;
+	top:38px;
+	right:360px;
+}
+
+#AloRedacao h2 {
+	display:none;
+}
+
+#AloRedacao ul li {
+	text-indent:-5000px;
+	overflow:hidden;
+	width:58px;
+	height:40px;
+}
+
+#AloRedacao ul li a {
+	width:58px;
+	height:40px;
+	background:url(../imagens/logo_aloredacao.gif) no-repeat 0 0;
+	display:block;
+}
+
+#AloRedacao ul li a:hover {
+	background:url(../imagens/logo_aloredacao.gif) no-repeat 0 -41px;
+}
+
+
+/* Menu
+**********************************************************/
+#Menu {
+	position:absolute;
+	top:90px;
+	right:0;
+	text-align:right;
+	font-size:11px;
+}
+
+#Menu h3 {
+	display:none;
+}
+
+#Menu li {
+	display:inline;
+	margin:0 7px 0 0;
+}
+
+#Menu a {
+	color:#FFF;
+}
+
+#MenuCadernos {
+	background-color:#12814E;
+	padding:1px 7px 4px 0;
+	float:right;
+	font-size:12px;
+}
+
+#MenuSuplementos {
+	background-color:#52AA54;
+	width:572px;
+	padding:4px 7px 4px 0;
+	float:left;
+	margin-top:1px;
+}
+
+#MenuServicos {
+	background-color:#64B266;
+	width:383px;
+	float:right;
+	padding:4px 7px 4px 0;
+	margin-top:1px;
+}
+
+
+/* Conteudo
+**********************************************************/
+#Conteudo {
+	margin-top:125px;
+	width:640px;
+	position:relative;
+	float:left;
+}
+
+
+/* Manchete
+**********************************************************/
+#Principal {
+	width:640px;
+}
+
+#DestaqueFotografico {
+	width:240px;
+	float:left;
+	position:relative;
+}
+
+#DestaqueFotografico p {
+	position:absolute;
+	top:130px;
+	left:0;
+	width:220px;
+	padding:10px;
+	background:url(../imagens/bg-transparencia.gif) top left;
+}
+
+#DestaqueFotografico p a {
+	color:#FFF;
+}
+
+#Manchete h2 {
+	font:bold 30px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:390px;
+	float:left;
+	letter-spacing:-1px;
+	line-height:32px;
+	margin:0 0 0 10px;
+}
+
+#Manchete h2 a {
+	color:#000;
+}
+
+#Lista {
+	width:390px;
+	margin:0 0 0 10px;
+	float:left;
+}
+
+#Lista li strong {
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.linklista {
+	margin-left:10px;
+}
+
+#Lista li {
+	font:12px Arial, Helvetica, sans-serif;
+	border-top:1px dotted #CCC;
+	padding:5px 0;
+}
+
+#Lista li a {
+	color:#000;
+}
+
+#Lista li a.jogada { color:#990000; }
+#Lista li a.politica { color:#3399CC; }
+#Lista li a.internacional { color:#52AA54; }
+#Lista li a.policia { color:#52AA54; }
+#Lista li a.caderno3 { color:#92278F; }
+
+
+/* Diario Virtual
+**********************************************************/
+#DiarioVirtual {
+	float:left;
+	width:145px;
+	margin-top:9px;
+}
+
+#DiarioVirtual h3 {
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:lowercase;
+	color:#12814D;
+	border-bottom:3px solid #12814D;
+	padding-bottom:1px;
+	margin-bottom:5px;
+}
+
+
+/* Hora patrocinada
+**********************************************************/
+#HoraPatrocinada {
+	position:relative;
+	top:10px;
+	width:145px;
+	height:50px;
+}
+
+
+/* Editorias quentes
+**********************************************************/
+#EditoriasQuentes {
+	width:475px;
+	float:right;
+	margin-top:10px;
+}
+
+.secundario1 {
+	width:145px;
+	float:left;
+	border-bottom:1px dotted #CCC;
+	padding-bottom:5px;
+}
+
+.secundario2 {
+	width:310px;
+	float:right;
+	border-bottom:1px dotted #CCC;
+	padding-bottom:5px;
+}
+
+
+/* Blocos das Editorias
+**********************************************************/
+.bloco-editoria h3 {
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-bottom:3px solid #12814D;
+	text-transform:lowercase;
+}
+
+.bloco-editoria h3 a {
+	color:#52AA54;
+}
+
+.bloco-editoria h4,
+.bloco-editoria h5 {
+	font:12px Arial, Helvetica, sans-serif;
+	margin-top:10px;
+}
+
+.bloco-editoria h4 a,
+.bloco-editoria h5 a {
+	color:#666;
+}
+
+.bloco-editoria ul li {
+	border-top:2px solid #12814D;
+	padding:1px 0 10px 0;
+}
+
+.bloco-editoria ul li a {
+	color:#000;
+}
+
+.bloco-editoria .primeiraChamadaLista { 
+	font-weight:bold;
+}
+
+.primeiraChamadaLista h4,
+.primeiraChamadaLista h5 {
+	font-weight:bold;
+}
+
+/* cores da caixa editorias */
+.jogada h3 { border-color:#990000; } /* Cor da borda abaixo do título */
+.jogada h3 a { color:#F1614B; } /* Cor do título */
+.jogada ul li { border-color:#990000; }  /* Cor da borda entre matérias */
+
+.regional h3 { border-color:#946241; } /* Cor da borda abaixo do título */
+.regional h3 a { color:#D78538; } /* Cor do título */
+.regional ul li { border-color:#946241; }  /* Cor da borda entre matérias */
+
+.negocios h3 { border-color:#00548E; } /* Cor da borda abaixo do título */
+.negocios h3 a { color:#5796BE; } /* Cor do título */
+.negocios ul li { border-color:#00548E; }  /* Cor da borda entre matérias */
+
+
+/* Coluna das Editorias
+**********************************************************/
+#colunaEditorias {
+	width:310px;
+	float:left;
+	margin-top:25px;
+}
+
+#colunaEditorias .bloco-editoria {
+	width:145px;
+	height:320px;
+	float:left;
+	border-top:1px dotted #CCC;
+	padding-top:10px;
+	margin:0 10px 10px 0;
+}
+
+
+h4.tt-blocoeditoria-semfoto {
+	font:bold 18px Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+
+.blococoluna1,
+.blococoluna2 {
+	border:none !important;
+	padding-top:0 !important;
+}
+
+.blococoluna2,
+.blococoluna4,
+.blococoluna6,
+.blococoluna8,
+.blococoluna10,
+.blococoluna12 { margin-left:20px; }
+*/
+
+/* Suplementos
+**********************************************************/
+#Suplementos {
+	width:310px;
+	margin-top:15px;
+	float:right;
+}
+
+#Suplementos div {
+	width:145px;
+	float:left;
+	border-top:1px dotted #CCC;
+	padding-top:10px;
+}
+
+#Suplementos h3 {
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-bottom:3px solid #12814D;
+	text-transform:lowercase;
+}
+
+#Suplementos h3 a {
+	color:#52AA54;
+}
+
+#Suplementos h4 {
+	font:12px Arial, Helvetica, sans-serif;
+	margin-top:10px;
+}
+
+#Suplementos h4 {
+	color:#666;
+}
+
+#Suplementos ul li {
+	padding:1px 0 10px 0;
+	margin-bottom:5px;
+}
+
+#Suplementos ul li a {
+	color:#000;
+}
+
+.blocosuplemento1,
+.blocosuplemento2 {
+	border:none !important;
+	padding-top:0 !important;
+}
+
+.blocosuplemento2,
+.blocosuplemento4,
+.blocosuplemento6,
+.blocosuplemento8,
+.blocosuplemento10,
+.blocosuplemento12 { margin-left:20px; }
+
+
+/* Multimidia
+**********************************************************/
+#Multimidia {
+	width:185px;
+	float:left;
+	margin:125px 0 10px 12px;
+	border-bottom:1px dotted #CCC;
+	padding-bottom:10px;
+}
+
+#Multimidia h3 {
+	background-color:#DBD8BF;
+	padding:3px 0;
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:lowercase;
+
+}
+
+#Multimidia h3 a {
+	background-color:#52AA54;
+	border-right:2px solid #FFF;
+	padding:3px 8px 3px 6px;
+	color:#FFF;
+}
+
+#Multimidia ul li {
+	clear:both;
+	height:55px;
+	margin:3px 0;
+}
+
+#Multimidia img {
+	width:75px;
+	height:55px;
+	float:left;
+}
+
+#Multimidia h4 {
+	width:104px;
+	height:49px;
+	margin-left:78px;
+	padding:3px 0 3px 3px;
+	background-color:#EDEBDF;
+}
+
+#Multimidia h4 a {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#333;
+}
+
+#Multimidia p {
+	background-color:#DBD8BF;
+	padding:3px 0;
+	text-transform:lowercase;
+}
+
+#Multimidia p a {
+	font:11px Verdana, Geneva, sans-serif;
+	color:#666;
+	border-left:2px solid #FFF;
+	margin-left:3px;
+	padding:5px 0 5px 5px;
+}
+
+
+/* Enquete
+**********************************************************/
+#Enquete {
+	width:185px;
+	float:left;
+	margin:0 0 10px 12px;
+	border-bottom:1px dotted #CCC;
+	padding-bottom:10px;
+}
+
+#Enquete h3 {
+	background-color:#DBD8BF;
+	padding:3px 0;
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:lowercase;
+
+}
+
+#Enquete h3 span {
+	background-color:#52AA54;
+	border-right:2px solid #FFF;
+	padding:3px 8px 3px 6px;
+	color:#FFF;
+}
+
+#Enquete form {
+	background-color:#EDEBDF;
+	margin-top:2px;
+	padding-top:10px;
+}
+
+#Enquete legend {
+	display:none;
+}
+
+#Enquete .pergunta {
+	margin-bottom:10px;
+	padding:0 10px;
+}
+
+#Enquete .opcao {
+	margin:10px 0;
+	padding:0 10px;
+}
+
+#Enquete .opcao input {
+	position:relative;
+	top:3px;
+}
+
+#vote {
+	background-color:#52AA54;
+	padding:3px 0;
+	margin-top:5px;
+	color:#FFF;
+	text-align:center;
+	width:185px;
+	border-top:2px solid #FFF;
+	cursor:pointer;
+}
+
+
+/* Blogs capa
+**********************************************************/
+#BlogsCapa {
+	width:185px;
+	float:left;
+	margin:0 0 10px 12px;
+	border-bottom:1px dotted #CCC;
+	padding-bottom:10px;
+}
+
+#BlogsCapa h3 {
+	background-color:#DBD8BF;
+	padding:3px 0;
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:lowercase;
+
+}
+
+#BlogsCapa h3 span {
+	background-color:#52AA54;
+	border-right:2px solid #FFF;
+	padding:3px 8px 3px 6px;
+	color:#FFF;
+}
+
+#BlogsCapa ul li {
+	margin-top:2px;
+	padding:7px 0 7px 13px;
+}
+
+#BlogsCapa ul li h4 {
+	font-weight:bold;
+	margin-bottom:3px;
+	font-size:12px;
+}
+
+#BlogsCapa ul li a {
+	color:#333;
+}
+
+#BlogsCapa ul li.chamadablog-automovel {
+	background:#EDEBDF url(../imagens/bordablog-padrao.gif) repeat-y top left;
+}
+
+#BlogsCapa ul li.chamadablog-egidio {
+	background:#EDEBDF url(../imagens/bordablog-egidio.gif) repeat-y top left;
+}
+
+#BlogsCapa ul li.chamadablog-jogada {
+	background:#EDEBDF url(../imagens/bordablog-jogada.gif) repeat-y top left;
+}
+
+#BlogsCapa ul li.chamadablog-roberto {
+	background:#EDEBDF url(../imagens/bordablog-padrao.gif) repeat-y top left;
+}
+
+#BlogsCapa ul li.chamadablog-zonacyber {
+	background:#EDEBDF url(../imagens/bordablog-zonacyber.gif) repeat-y top left;
+}
+
+#BlogsCapa p.verTodosBlogs {
+	background-color:#DBD8BF;
+	padding:3px 0;
+	margin-top:2px;
+	text-transform:lowercase;
+}
+
+#BlogsCapa p.verTodosBlogs a {
+	font:11px Verdana, Geneva, sans-serif;
+	color:#666;
+	border-left:2px solid #FFF;
+	margin-left:3px;
+	padding:5px 0 5px 5px;
+}
+
+
+/* Charge
+**********************************************************/
+#Charge {
+	width:185px;
+	float:left;
+	margin:0 0 10px 12px;
+	border-bottom:1px dotted #CCC;
+	padding-bottom:10px;
+}
+
+#Charge h3 {
+	background-color:#DBD8BF;
+	padding:3px 0;
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:lowercase;
+	margin-bottom:2px
+}
+
+#Charge h3 span {
+	background-color:#52AA54;
+	border-right:2px solid #FFF;
+	padding:3px 8px 3px 6px;
+	color:#FFF;
+}
+
+
+/* Colunas
+**********************************************************/
+#Colunas {
+	width:185px;
+	float:left;
+	margin:0 0 0 12px;
+}
+
+#Colunas h3 {
+	background-color:#DBD8BF;
+	padding:3px 0;
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:lowercase;
+
+}
+
+#Colunas h3 a {
+	background-color:#52AA54;
+	border-right:2px solid #FFF;
+	padding:3px 8px 3px 6px;
+	color:#FFF;
+}
+
+#Colunas li {
+	margin-top:2px;
+	background:#EDEBDF url(../imagens/colunista.jpg) no-repeat right;
+}
+
+#Colunas li a {
+	height:15px;
+	padding:10px 0 10px 10px;
+	display:block;
+	overflow:hidden;
+	color:#666;
+	font-weight:bold;
+}
+
+#Colunas p {
+	background-color:#DBD8BF;
+	padding:3px 0;
+	margin-top:2px;
+	text-transform:lowercase;
+}
+
+#Colunas p a {
+	font:11px Verdana, Geneva, sans-serif;
+	color:#666;
+	border-left:2px solid #FFF;
+	margin-left:3px;
+	padding:5px 0 5px 5px;
+}
+
+/* colunistas */
+#Colunas li.colunista1 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista1.jpg) no-repeat right; }
+#Colunas li.colunista5 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista5.jpg) no-repeat right; }
+#Colunas li.colunista6 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista6.jpg) no-repeat right; }
+#Colunas li.colunista7 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista7.jpg) no-repeat right; }
+#Colunas li.colunista9 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista9.jpg) no-repeat right; }
+#Colunas li.colunista10 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista10.jpg) no-repeat right; }
+#Colunas li.colunista11 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista11.jpg) no-repeat right; }
+#Colunas li.colunista12 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista12.jpg) no-repeat right; }
+#Colunas li.colunista13 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista13.jpg) no-repeat right; }
+#Colunas li.colunista14 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista14.jpg) no-repeat right; }
+#Colunas li.colunista16 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista16.jpg) no-repeat right; }
+#Colunas li.colunista17 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista17.jpg) no-repeat right; }
+#Colunas li.colunista19 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista19.jpg) no-repeat right; }
+#Colunas li.colunista21 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista21.jpg) no-repeat right; }
+#Colunas li.colunista22 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista22.jpg) no-repeat right; }
+#Colunas li.colunista23 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista23.jpg) no-repeat right; }
+#Colunas li.colunista27 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista26.jpg) no-repeat right; }
+#Colunas li.colunista28 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista28.jpg) no-repeat right; }
+#Colunas li.colunista29 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista29.jpg) no-repeat right; }
+#Colunas li.colunista31 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista31.jpg) no-repeat right; }
+#Colunas li.colunista32 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista32.jpg) no-repeat right; }
+#Colunas li.colunista33 a,
+#Colunas li.colunista77 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista33.jpg) no-repeat right; }
+#Colunas li.colunista34 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista34.jpg) no-repeat right; }
+#Colunas li.colunista35 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista35.jpg) no-repeat right; }
+#Colunas li.colunista45 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista45.jpg) no-repeat right; }
+#Colunas li.colunista49 a,
+#Colunas li.colunista75 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista49.jpg) no-repeat right; }
+#Colunas li.colunista51 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista51.jpg) no-repeat right; }
+#Colunas li.colunista56 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista56.jpg) no-repeat right; }
+#Colunas li.colunista60 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista60.jpg) no-repeat right; }
+#Colunas li.colunista61 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista61.jpg) no-repeat right; }
+#Colunas li.colunista62 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista62.jpg) no-repeat right; }
+#Colunas li.colunista63 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista63.jpg) no-repeat right; }
+#Colunas li.colunista65 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista65.jpg) no-repeat right; }
+#Colunas li.colunista73 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista73.jpg) no-repeat right; }
+#Colunas li.colunista80 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista80.jpg) no-repeat right; }
+#Colunas li.colunista81 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista81.jpg) no-repeat right; }
+#Colunas li.colunista84 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista84.jpg) no-repeat right; }
+#Colunas li.colunista85 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista85.jpg) no-repeat right; }
+#Colunas li.colunista87 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista87.jpg) no-repeat right; }
+#Colunas li.colunista89 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista89.jpg) no-repeat right; }
+#Colunas li.colunista92 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista92.jpg) no-repeat right; }
+#Colunas li.colunista93 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista93.jpg) no-repeat right; }
+#Colunas li.colunista95 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista95.jpg) no-repeat right; }
+#Colunas li.colunista96 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista96.jpg) no-repeat right; }
+#Colunas li.colunista97 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista97.jpg) no-repeat right; }
+
+
+/* Variedades
+**********************************************************/
+#Variedades {
+	width:835px;
+	border-top:1px dotted #CCC;
+	margin-top:20px;
+	padding-top:10px;
+	clear:both;
+	float:left;
+}
+
+#Variedades div {
+	width:150px;
+	border-right:1px dotted #CCC;
+	padding-right:8px;
+	margin-left:10px;
+	margin-bottom:15px;
+	float:left;
+}
+
+#Variedades .primeiroVariedade {
+	margin-left:0;
+}
+
+#Variedades h3 {
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-bottom:3px solid #12814D;
+	text-transform:lowercase;
+	color:#4EA854;
+	margin-bottom:1px;
+}
+
+#Variedades h4 {
+	font:bold 12px Arial, Helvetica, sans-serif;
+}
+
+#Variedades h4 a {
+	color:#333;
+}
+
+#Variedades p {
+	text-align:right;
+	margin-top:10px;
+}
+
+#Variedades p a {
+	color:#333;
+}
+
+
+/* Coluna Comercial
+**********************************************************/
+#ColunaComercial {
+	width:120px;
+	position:absolute;
+	top:245px;
+	right:0;
+}
+
+
+/* Classificados
+**********************************************************/
+#BuscaClassificados {
+	margin-bottom:15px;
+}
+
+#BuscaClassificados h3 {
+	text-indent:-5000px;
+	overflow:hidden;
+	width:120px;
+	height:33px;
+	background:url(../imagens/logo-classificados.jpg) no-repeat top left;
+}
+
+#BuscaClassificados h3 a {
+	width:120px;
+	height:33px;
+	display:block;
+}
+
+#cxBuscaClassificados,
+#cxCategoriaClassificados {
+	border:1px solid #CCC;
+	padding:1px;
+}
+
+#cxBuscaClassificados {
+	margin:5px 0;
+	width:116px;
+}
+
+#cxCategoriaClassificados {
+	width:120px;
+}
+
+#BuscaClassificados p {
+	margin-top:5px;
+	background:#DBD8BF;
+}
+
+#btBuscaClassificados {
+	background-color:#007E3D;
+	font:11px Verdana, Geneva, sans-serif;
+	color:#FFF;
+	padding:3px 5px;
+	border-right:2px solid #FFF;
+	cursor:pointer;
+}
+
+
+/* Selo patrocinado
+**********************************************************/
+#SeloPatrocinado {
+margin-bottom:15px;
+}
+
+#SeloPatrocinado ul li {
+	margin-bottom:5px;
+}
+
+
+/* Guia do Sabor
+**********************************************************/
+#GuiadoSabor {
+	border:1px dotted #CCC;
+	border-width:1px 0 1px 0;
+	margin:15px 0;
+	padding:15px 0;
+}
+
+#GuiadoSabor h3 {
+	text-indent:-5000px;
+	overflow:hidden;
+	width:120px;
+	height:55px;
+	background:url(../imagens/logo-guiadosabor.jpg) no-repeat top left;
+}
+
+#GuiadoSabor h3 a {
+	width:120px;
+	height:55px;
+	display:block;
+}
+
+#cxBuscaGuiadoSabor,
+#cxCategoriaGuiadoSabor {
+	border:1px solid #CCC;
+	padding:1px;
+}
+
+#cxBuscaGuiadoSabor {
+	margin:5px 0;
+	width:116px;
+}
+
+#cxCategoriaGuiadoSabor {
+	width:120px;
+}
+
+#GuiadoSabor p {
+	margin-top:5px;
+	background:#F8EFE6;
+}
+
+#btBuscaGuiadoSabor {
+	background-color:#F2DFCE;
+	font:11px Verdana, Geneva, sans-serif;
+	color:#9B1216;
+	padding:3px 5px;
+	border-right:2px solid #FFF;
+	cursor:pointer;
+}
+
+
+/* Publicidade
+**********************************************************/
+#Publicidade h2 {
+	display:none;
+}
+
+#Top {
+	position:absolute;
+	top:145px;
+	left:0;
+	width:728px;
+	height:90px;
+}
+	
+#BuscapeTop {
+	position:absolute;
+	top:145px;
+	right:0;
+	width:230px;
+	height:90px;
+}
+
+#Retangulo {
+	width:310px;
+	float:right;
+	margin-top:44px;
+}
+
+#AdSenseRodape {
+	float:left;
+	clear:both;
+	margin:10px 0;
+	width:970px;
+}
+
+#superbannerAdsense { float:left; }
+#retanguloAdsense { float:right; }
+
+
+/* Rodape
+**********************************************************/
+#Rodape {
+	clear:both;
+	width:970px;
+	background:url(../imagens/rodape_fundo.gif) repeat-x top left;
+	height:45px;
+	padding:5px 0 10px 0;
+}
+
+#Rodape ul {
+	float:left;
+	background-color:#D5D1B4;
+	padding:5px 25px;
+}
+
+#Rodape ul li {
+	display:inline;
+	margin:0 10px;
+}
+
+#Rodape ul li a {
+	color:#000;
+}
+
+#RodapeInstitucional,
+#RodapeInteratividade {
+	margin-right:5px;
+}
+
+#RodapeInteratividade,
+#Rodape address {
+	background:#D5D1B4 url(../imagens/borda_lateral_rodape.gif) repeat-y top left;
+}
+
+#Rodape address {
+	font-style:normal;
+	padding:5px 27px 5px 26px;
+	float:left;
+}
+
+
+/* Barras de parceiros
+**********************************************************/
+#Barras {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#Barra_pvm_conteudo {
+    position: relative;
+}
+
+#Barra_pvm_conteudo ul {
+    position: absolute;
+    top: -7px;
+    left: 200px;
+}
+
+body { 
+	*background-position:center 55px;
+}
+

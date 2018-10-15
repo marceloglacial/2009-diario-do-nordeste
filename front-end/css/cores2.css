@@ -1,0 +1,968 @@
+/*
+Estilo geral para o site do Diario do Nordeste
+Autores da folhas de estilos: Joares Miranda e Marcelo Glacial
+Design: Marcelo Glacial
+*/
+
+
+/* Primeiro Caderno  / Cor 1 #00814D /  Cor 2 57AA54
+-------------------------------------------------------------- */
+
+#Lista li a  { color:#00814D; }
+
+#Internas #Cabecalho h1 {
+	border-right:solid 1px #FFF;
+}
+#Internas #MenuSuplementos {
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+/*	
+	filter:alpha(opacity=80);
+	opacity: 0.8;
+*/
+}
+#Internas #MenuServicos {
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+/*
+	filter:alpha(opacity=70);
+	opacity: 0.7;
+*/
+}
+
+/* Automovel  - color:#008E98; - background:#7EBCC6;
+-------------------------------------------------------------- */
+
+#Lista li a.automovel { color:#008E98; }
+
+body.caderno-automovel #Cabecalho {
+	background:url(../imagens/topo_automovel.gif) repeat-x;
+}
+
+body.caderno-automovel #Cabecalho h1 {
+	background:url(../imagens/cabeca_automovel.gif) no-repeat bottom left;
+}
+body.caderno-automovel #MenuSuplementos {
+	background-color:#9DCDD4;
+}
+body.caderno-automovel #MenuServicos {
+	background-color:#B0D7DC;
+}
+
+body.caderno-automovel #Manchete h2 a {
+	color:#008E98;
+}
+.bloco-editoria .automovel h3 a,
+div.automovel h3,
+div.automovel h3 a,
+div.automovel ul li,
+#Internas.caderno-automovel .bloco-secundarios h3 {
+	color:#7EBCC6 !important;
+	border-color:#008E98 !important;
+}
+#Internas.caderno-automovel #Ultima_hora h2 {
+	background:#7EBCC6;
+}
+#Internas.caderno-automovel #Ultima_hora p {
+	background:#7EBCC6;
+	border-color:#008E98;
+}
+#Internas.caderno-automovel #Ultima_hora dd {
+	border-color:#7EBCC6;
+}
+#Internas.caderno-automovel #Ultima_hora h2 a {
+	color:#FFF;
+	background:#008E98;
+}
+#Internas.caderno-automovel #Noticia h2.tituloNoticia {
+	color:#008E98;
+}
+#Internas.caderno-automovel #Ferramentas {
+	border-color:#7EBCC6;
+}
+#Internas.caderno-automovel #Relacionadas h2 {
+	background-color:#7EBCC6;
+}
+#Internas.caderno-automovel #Relacionadas h2 span {
+	background-color:#008E98;
+}
+#Internas.caderno-automovel #Relacionadas li {
+	border-color:#7EBCC6;
+}
+#Internas.caderno-automovel #Relacionadas p {
+	border-left:3px solid #008E98;
+	background-color:#7EBCC6;
+}
+#Internas.caderno-automovel #Comentarios h2 {
+	background-color:#7EBCC6;
+}
+
+#Internas.caderno-automovel #Comentarios h2 span {
+	background-color:#008E98;
+}
+
+
+
+/* Caderno 3 / Cor 1 #92278F / Cor 2 #9D85BE
+-------------------------------------------------------------- */
+
+#Lista li a.caderno3  { color:#92278F; }
+
+body.caderno-caderno3 #Cabecalho {
+	background:url(../imagens/topo_caderno3.gif) repeat-x;
+}
+
+body.caderno-caderno3 #Cabecalho h1 {
+	background:url(../imagens/cabeca_caderno3.gif) no-repeat bottom left;
+}
+body.caderno-caderno3 #MenuSuplementos {
+	background-color:#9D85BE;
+}
+body.caderno-caderno3 #MenuServicos {
+	background-color:#9D85BE;
+}
+body.caderno-caderno3 #Manchete h2 a {
+	color:#92278F;
+}
+.bloco-editoria .caderno3 h3 a,
+div.caderno3 h3,
+div.caderno3 h3 a,
+div.caderno3 ul li,
+#Internas.caderno-caderno3 .bloco-secundarios h3,
+.bloco-editoria .caderno-3 h3 a,
+div.caderno-3 h3,
+div.caderno-3 h3 a,
+div.caderno-3 ul li,
+#Internas.caderno-caderno-3 .bloco-secundarios h3 {
+	color:#9D85BE !important;
+	border-color:#92278F !important;
+}
+#Internas.caderno-caderno3 #Ultima_hora h2 {
+	background:#9D85BE;
+}
+#Internas.caderno-caderno3 #Ultima_hora h2 a {
+	color:#FFF;
+	background:#92278F;
+}
+#Internas.caderno-caderno3 #Ultima_hora p {
+	background:#9D85BE;
+	border-color:#92278F;
+}
+#Internas.caderno-caderno3 #Ultima_hora dd {
+	border-color:#9D85BE;
+}
+
+#Internas.caderno-caderno3 #Noticia h2.tituloNoticia {
+	color:#92278F;
+}
+#Internas.caderno-caderno3 #Ferramentas {
+	border-color:#9D85BE;
+}
+#Internas.caderno-caderno3 #Relacionadas h2 {
+	background-color:#9D85BE;
+}
+#Internas.caderno-caderno3 #Relacionadas h2 span {
+	background-color:#92278F;
+}
+#Internas.caderno-caderno3 #Relacionadas li {
+	border-color:#9D85BE;
+}
+#Internas.caderno-caderno3 #Relacionadas p {
+	border-left:3px solid #92278F;
+	background-color:#9D85BE;
+}
+#Internas.caderno-caderno3 #Comentarios h2 {
+	background-color:#9D85BE;
+}
+
+#Internas.caderno-caderno3 #Comentarios h2 span {
+	background-color:#92278F;
+}
+
+/* Cultura 3 / Cor 1 #92278F / Cor 2 #9D85BE
+-------------------------------------------------------------- */
+
+#Lista li a.cultura  { color:#92278F; }
+
+body.caderno-cultura #Cabecalho {
+	background:url(../imagens/topo_cultura.gif) repeat-x;
+}
+
+body.caderno-cultura #Cabecalho h1 {
+	background:url(../imagens/cabeca_cultura.gif) no-repeat bottom left;
+}
+body.caderno-cultura #MenuSuplementos {
+	background-color:#9D85BE;
+}
+body.caderno-cultura #MenuServicos {
+	background-color:#9D85BE;
+}
+body.caderno-cultura #Manchete h2 a {
+	color:#92278F;
+}
+.bloco-editoria .cultura h3 a,
+div.cultura h3,
+div.cultura h3 a,
+div.cultura ul li,
+#Internas.caderno-cultura .bloco-secundarios h3,
+.bloco-editoria .cultura-3 h3 a,
+div.cultura-3 h3,
+div.cultura-3 h3 a,
+div.cultura-3 ul li,
+#Internas.caderno-cultura-3 .bloco-secundarios h3 {
+	color:#9D85BE !important;
+	border-color:#92278F !important;
+}
+#Internas.caderno-cultura #Ultima_hora h2 {
+	background:#9D85BE;
+}
+#Internas.caderno-cultura #Ultima_hora h2 a {
+	color:#FFF;
+	background:#92278F;
+}
+#Internas.caderno-cultura #Ultima_hora p {
+	background:#9D85BE;
+	border-color:#92278F;
+}
+#Internas.caderno-cultura #Ultima_hora dd {
+	border-color:#9D85BE;
+}
+
+#Internas.caderno-cultura #Noticia h2.tituloNoticia {
+	color:#92278F;
+}
+#Internas.caderno-cultura #Ferramentas {
+	border-color:#9D85BE;
+}
+#Internas.caderno-cultura #Relacionadas h2 {
+	background-color:#9D85BE;
+}
+#Internas.caderno-cultura #Relacionadas h2 span {
+	background-color:#92278F;
+}
+#Internas.caderno-cultura #Relacionadas li {
+	border-color:#9D85BE;
+}
+#Internas.caderno-cultura #Relacionadas p {
+	border-left:3px solid #92278F;
+	background-color:#9D85BE;
+}
+#Internas.caderno-cultura #Comentarios h2 {
+	background-color:#9D85BE;
+}
+
+#Internas.caderno-cultura #Comentarios h2 span {
+	background-color:#92278F;
+}
+
+
+
+/* Cidade  / cor padrao
+-------------------------------------------------------------- */
+body.caderno-cidade #Cabecalho h1 {
+	background:url(../imagens/cabeca_cidade.gif) no-repeat bottom left;
+}
+/* Colunas /  cor padrao
+-------------------------------------------------------------- */
+body.caderno-colunas #Cabecalho h1 {
+	background:url(../imagens/cabeca_colunas.gif) no-repeat bottom left;
+}
+
+/* Empregos / cor padrao
+-------------------------------------------------------------- */
+body.caderno-empregos #Cabecalho h1 {
+	background:url(../imagens/cabeca_empregos.gif) no-repeat bottom left;
+}
+
+/* Eva / color:#A52960;		background:#39BB9D;
+-------------------------------------------------------------- */
+
+#Lista li a.eva  { color:#A52960; }
+
+body.caderno-eva #Cabecalho {
+	background:url(../imagens/topo_eva.gif) repeat-x;
+}
+
+body.caderno-eva #Cabecalho h1 {
+	background:url(../imagens/cabeca_eva.gif) no-repeat bottom left;
+}
+body.caderno-eva #MenuSuplementos {
+	background-color:#39BB9D;
+}
+body.caderno-eva #MenuServicos {
+	background-color:#39BB9D;
+}
+body.caderno-eva #Manchete h2 a {
+	color:#A52960;
+}
+.bloco-editoria .eva h3 a,
+div.eva h3,
+div.eva h3 a,
+div.eva ul li,
+#Internas.caderno-eva .bloco-secundarios h3 {
+	color:#39BB9D !important;
+	border-color:#A52960 !important;
+}
+#Internas.caderno-eva #Ultima_hora h2 {
+	background:#39BB9D;
+}
+#Internas.caderno-eva #Ultima_hora h2 a {
+	color:#FFF;
+	background:#A52960;
+}
+#Internas.caderno-eva #Ultima_hora p {
+	background:#39BB9D;
+	border-color:#A52960;
+}
+#Internas.caderno-eva #Ultima_hora dd {
+	border-color:#39BB9D;
+}
+
+#Internas.caderno-eva #Noticia h2.tituloNoticia {
+	color:#A52960;
+}
+#Internas.caderno-eva #Ferramentas {
+	border-color:#39BB9D;
+}
+#Internas.caderno-eva #Relacionadas h2 {
+	background-color:#39BB9D;
+}
+#Internas.caderno-eva #Relacionadas h2 span {
+	background-color:#A52960;
+}
+#Internas.caderno-eva #Relacionadas li {
+	border-color:#39BB9D;
+}
+#Internas.caderno-eva #Relacionadas p {
+	border-left:3px solid #A52960;
+	background-color:#39BB9D;
+}
+#Internas.caderno-eva #Comentarios h2 {
+	background-color:#39BB9D;
+}
+
+#Internas.caderno-eva #Comentarios h2 span {
+	background-color:#A52960;
+}
+
+/* Gente 	color:#9E7337;	background:#E6B222;
+-------------------------------------------------------------- */
+
+#Lista li a.gente  { color:#9E7337; }
+
+body.caderno-gente #Cabecalho {
+	background:url(../imagens/topo_gente.gif) repeat-x;
+}
+
+body.caderno-gente #Cabecalho h1 {
+	background:url(../imagens/cabeca_gente.gif) no-repeat bottom left;
+}
+body.caderno-gente #MenuSuplementos {
+	background-color:#E6B222;
+}
+body.caderno-gente #MenuServicos {
+	background-color:#E6B222;
+}
+body.caderno-gente #Manchete h2 a {
+	color:#9E7337;
+}
+.bloco-editoria .gente h3 a,
+div.gente h3,
+div.gente h3 a,
+div.gente ul li,
+#Internas.caderno-gente .bloco-secundarios h3 {
+	color:#E6B222 !important;
+	border-color:#9E7337 !important;
+}
+#Internas.caderno-gente #Ultima_hora h2 {
+	background:#E6B222;
+}
+#Internas.caderno-gente #Ultima_hora h2 a {
+	color:#FFF;
+	background:#9E7337;
+}
+#Internas.caderno-gente #Ultima_hora p {
+	background:#E6B222;
+	border-color:#9E7337;
+}
+#Internas.caderno-gente #Ultima_hora dd {
+	border-color:#E6B222;
+}
+
+#Internas.caderno-gente #Noticia h2.tituloNoticia {
+	color:#9E7337;
+}
+#Internas.caderno-gente #Ferramentas {
+	border-color:#E6B222;
+}
+#Internas.caderno-gente #Relacionadas h2 {
+	background-color:#E6B222;
+}
+#Internas.caderno-gente #Relacionadas h2 span {
+	background-color:#9E7337;
+}
+#Internas.caderno-gente #Relacionadas li {
+	border-color:#E6B222;
+}
+#Internas.caderno-gente #Relacionadas p {
+	border-left:3px solid #9E7337;
+	background-color:#E6B222;
+}
+#Internas.caderno-gente #Comentarios h2 {
+	background-color:#E6B222;
+}
+
+#Internas.caderno-gente #Comentarios h2 span {
+	background-color:#9E7337;
+}
+
+
+/* Infantil / cor padrao
+-------------------------------------------------------------- */
+body.caderno-infantil #Cabecalho h1 {
+	background:url(../imagens/cabeca_infantil.gif) no-repeat bottom left;
+}
+
+/* Internacional / cor padrao
+-------------------------------------------------------------- */
+body.caderno-internacional #Cabecalho h1 {
+	background:url(../imagens/cabeca_internacional.gif) no-repeat bottom left;
+}
+
+/* Jogada / Cor 1 #B8292F / Cor 2 #F1614D
+-------------------------------------------------------------- */
+
+#Lista li a.jogada  { color:#B8292F; }
+
+body.caderno-jogada #Cabecalho {
+	background:url(../imagens/topo_jogada.gif) repeat-x;
+}
+
+body.caderno-jogada #Cabecalho h1 {
+	background:url(../imagens/cabeca_jogada.gif) no-repeat bottom left;
+}
+body.caderno-jogada #MenuSuplementos {
+	background-color:#F1614D;
+}
+body.caderno-jogada #MenuServicos {
+	background-color:#F1614D;
+}
+body.caderno-jogada #Manchete h2 a {
+	color:#B8292F;
+}
+.bloco-editoria .jogada h3 a,
+div.jogada h3,
+div.jogada h3 a,
+div.jogada ul li,
+#Internas.caderno-jogada .bloco-secundarios h3 {
+	color:#F1614D !important;
+	border-color:#B8292F !important;
+}
+#Internas.caderno-jogada #Ultima_hora h2 {
+	background:#F1614D;
+}
+#Internas.caderno-jogada #Ultima_hora h2 a {
+	color:#FFF;
+	background:#B8292F;
+}
+#Internas.caderno-jogada #Ultima_hora p {
+	background:#F1614D;
+	border-color:#B8292F;
+}
+#Internas.caderno-jogada #Ultima_hora dd {
+	border-color:#F1614D;
+}
+
+#Internas.caderno-jogada #Noticia h2.tituloNoticia {
+	color:#B8292F;
+}
+#Internas.caderno-jogada #Ferramentas {
+	border-color:#F1614D;
+}
+#Internas.caderno-jogada #Relacionadas h2 {
+	background-color:#F1614D;
+}
+#Internas.caderno-jogada #Relacionadas h2 span {
+	background-color:#B8292F;
+}
+#Internas.caderno-jogada #Relacionadas li {
+	border-color:#F1614D;
+}
+#Internas.caderno-jogada #Relacionadas p {
+	border-left:3px solid #B8292F;
+	background-color:#F1614D;
+}
+#Internas.caderno-jogada #Comentarios h2 {
+	background-color:#F1614D;
+}
+
+#Internas.caderno-jogada #Comentarios h2 span {
+	background-color:#B8292F;
+}
+
+/* Nacional / cor padrao
+-------------------------------------------------------------- */
+body.caderno-nacional #Cabecalho h1 {
+	background:url(../imagens/cabeca_nacional.gif) no-repeat bottom left;
+}
+
+
+/* Negócios - Agronegócios - Exportação / Cor 1 #00558F / Cor 2#5896BE
+------------------------------------------------------------------------------ */
+
+#Lista li a.negocios  { color:#00558F; }
+
+body.caderno-negocios #Cabecalho {
+	background:url(../imagens/topo_negocios.gif) repeat-x;
+}
+
+body.caderno-negocios #Cabecalho h1 {
+	background:url(../imagens/cabeca_negocios.gif) no-repeat bottom left;
+}
+body.caderno-negocios #MenuSuplementos {
+	background-color:#5896BE;
+}
+body.caderno-negocios #MenuServicos {
+	background-color:#5896BE;
+}
+body.caderno-negocios #Manchete h2 a {
+	color:#00558F;
+}
+.bloco-editoria .negocios h3 a,
+div.negocios h3,
+div.negocios h3 a,
+div.negocios ul li,
+#Internas.caderno-negocios .bloco-secundarios h3 {
+	color:#5896BE !important;
+	border-color:#00558F !important;
+}
+#Internas.caderno-negocios #Ultima_hora h2 {
+	background:#5896BE;
+}
+#Internas.caderno-negocios #Ultima_hora h2 a {
+	color:#FFF;
+	background:#00558F;
+}
+#Internas.caderno-negocios #Ultima_hora p {
+	background:#5896BE;
+	border-color:#00558F;
+}
+#Internas.caderno-negocios #Ultima_hora dd {
+	border-color:#5896BE;
+}
+
+#Internas.caderno-negocios #Noticia h2.tituloNoticia {
+	color:#00558F;
+}
+#Internas.caderno-negocios #Ferramentas {
+	border-color:#5896BE;
+}
+#Internas.caderno-negocios #Relacionadas h2 {
+	background-color:#5896BE;
+}
+#Internas.caderno-negocios #Relacionadas h2 span {
+	background-color:#00558F;
+}
+#Internas.caderno-negocios #Relacionadas li {
+	border-color:#5896BE;
+}
+#Internas.caderno-negocios #Relacionadas p {
+	border-left:3px solid #00558F;
+	background-color:#5896BE;
+}
+#Internas.caderno-negocios #Comentarios h2 {
+	background-color:#5896BE;
+}
+
+#Internas.caderno-negocios #Comentarios h2 span {
+	background-color:#00558F;
+}
+
+/* Opiniao / cor padrao
+-------------------------------------------------------------- */
+body.caderno-opiniao #Cabecalho h1 {
+	background:url(../imagens/cabeca_opiniao.gif) no-repeat bottom left;
+}
+/* Policia / cor padrao
+-------------------------------------------------------------- */
+body.caderno-policia #Cabecalho h1 {
+	background:url(../imagens/cabeca_policia.gif) no-repeat bottom left;
+}
+
+/* Politica / cor padrao
+-------------------------------------------------------------- */
+body.caderno-politica #Cabecalho h1 {
+	background:url(../imagens/cabeca_politica.gif) no-repeat bottom left;
+}
+
+/* Regional / Cor 1 #946342 / Cor 2 #D7853A
+-------------------------------------------------------------- */
+
+#Lista li a.regional  { color:#946342; }
+
+body.caderno-regional #Cabecalho {
+	background:url(../imagens/topo_regional.gif) repeat-x;
+}
+
+body.caderno-regional #Cabecalho h1 {
+	background:url(../imagens/cabeca_regional.gif) no-repeat bottom left;
+}
+body.caderno-regional #MenuSuplementos {
+	background-color:#D7853A;
+}
+body.caderno-regional #MenuServicos {
+	background-color:#D7853A;
+}
+body.caderno-regional #Manchete h2 a {
+	color:#946342;
+}
+.bloco-editoria .regional h3 a,
+div.regional h3,
+div.regional h3 a,
+div.regional ul li,
+#Internas.caderno-regional .bloco-secundarios h3 {
+	color:#D7853A !important;
+	border-color:#946342 !important;
+}
+#Internas.caderno-regional #Ultima_hora h2 {
+	background:#D7853A;
+}
+#Internas.caderno-regional #Ultima_hora h2 a {
+	color:#FFF;
+	background:#946342;
+}
+#Internas.caderno-regional #Ultima_hora p {
+	background:#D7853A;
+	border-color:#946342;
+}
+#Internas.caderno-regional #Ultima_hora dd {
+	border-color:#D7853A;
+}
+
+#Internas.caderno-regional #Noticia h2.tituloNoticia {
+	color:#946342;
+}
+#Internas.caderno-regional #Ferramentas {
+	border-color:#D7853A;
+}
+#Internas.caderno-regional #Relacionadas h2 {
+	background-color:#D7853A;
+}
+#Internas.caderno-regional #Relacionadas h2 span {
+	background-color:#946342;
+}
+#Internas.caderno-regional #Relacionadas li {
+	border-color:#D7853A;
+}
+#Internas.caderno-regional #Relacionadas p {
+	border-left:3px solid #946342;
+	background-color:#D7853A;
+}
+#Internas.caderno-regional #Comentarios h2 {
+	background-color:#D7853A;
+}
+
+#Internas.caderno-regional #Comentarios h2 span {
+	background-color:#946342;
+}
+
+/* Tecnoguia Cor 1 #00558F / Cor 2#5896BE
+------------------------------------------------------------------------------ */
+
+#Lista li a.informatica  { color:#00558F; }
+
+body.caderno-informatica #Cabecalho {
+	background:url(../imagens/topo_tecnoguia.gif) repeat-x;
+}
+
+body.caderno-informatica #Cabecalho h1 {
+	background:url(../imagens/cabeca_tecnoguia.gif) no-repeat bottom left;
+}
+body.caderno-informatica #MenuSuplementos {
+	background-color:#5896BE;
+}
+body.caderno-informatica #MenuServicos {
+	background-color:#5896BE;
+}
+body.caderno-informatica #Manchete h2 a {
+	color:#00558F;
+}
+.bloco-editoria .informatica h3 a,
+div.informatica h3,
+div.informatica h3 a,
+div.informatica ul li,
+#Internas.caderno-informatica .bloco-secundarios h3 {
+	color:#5896BE !important;
+	border-color:#00558F !important;
+}
+#Internas.caderno-informatica #Ultima_hora h2 {
+	background:#5896BE;
+}
+#Internas.caderno-informatica #Ultima_hora h2 a {
+	color:#FFF;
+	background:#00558F;
+}
+#Internas.caderno-informatica #Ultima_hora p {
+	background:#5896BE;
+	border-color:#00558F;
+}
+#Internas.caderno-informatica #Ultima_hora dd {
+	border-color:#5896BE;
+}
+
+#Internas.caderno-informatica #Noticia h2.tituloNoticia {
+	color:#00558F;
+}
+#Internas.caderno-informatica #Ferramentas {
+	border-color:#5896BE;
+}
+#Internas.caderno-informatica #Relacionadas h2 {
+	background-color:#5896BE;
+}
+#Internas.caderno-informatica #Relacionadas h2 span {
+	background-color:#00558F;
+}
+#Internas.caderno-informatica #Relacionadas li {
+	border-color:#5896BE;
+}
+#Internas.caderno-informatica #Relacionadas p {
+	border-left:3px solid #00558F;
+	background-color:#5896BE;
+}
+#Internas.caderno-informatica #Comentarios h2 {
+	background-color:#5896BE;
+}
+
+#Internas.caderno-informatica #Comentarios h2 span {
+	background-color:#00558F;
+}
+
+
+/* Turismo / Cor 1 #9A9A24 / Cor 2 #CADB44
+-------------------------------------------------------------- */
+
+#Lista li a.turismo  { color:#9A9A24; }
+
+body.caderno-turismo #Cabecalho {
+	background:url(../imagens/topo_turismo.gif) repeat-x;
+}
+
+body.caderno-turismo #Cabecalho h1 {
+	background:url(../imagens/cabeca_turismo.gif) no-repeat bottom left;
+}
+body.caderno-turismo #MenuSuplementos {
+	background-color:#CADB44;
+}
+body.caderno-turismo #MenuServicos {
+	background-color:#CADB44;
+}
+body.caderno-turismo #Manchete h2 a {
+	color:#9A9A24;
+}
+.bloco-editoria .turismo h3 a,
+div.turismo h3,
+div.turismo h3 a,
+div.turismo ul li,
+#Internas.caderno-turismo .bloco-secundarios h3 {
+	color:#CADB44 !important;
+	border-color:#9A9A24 !important;
+}
+#Internas.caderno-turismo #Ultima_hora h2 {
+	background:#CADB44;
+}
+#Internas.caderno-turismo #Ultima_hora h2 a {
+	color:#FFF;
+	background:#9A9A24;
+}
+#Internas.caderno-turismo #Ultima_hora p {
+	background:#CADB44;
+	border-color:#9A9A24;
+}
+#Internas.caderno-turismo #Ultima_hora dd {
+	border-color:#CADB44;
+}
+
+#Internas.caderno-turismo #Noticia h2.tituloNoticia {
+	color:#9A9A24;
+}
+#Internas.caderno-turismo #Ferramentas {
+	border-color:#CADB44;
+}
+#Internas.caderno-turismo #Relacionadas h2 {
+	background-color:#CADB44;
+}
+#Internas.caderno-turismo #Relacionadas h2 span {
+	background-color:#9A9A24;
+}
+#Internas.caderno-turismo #Relacionadas li {
+	border-color:#CADB44;
+}
+#Internas.caderno-turismo #Relacionadas p {
+	border-left:3px solid #9A9A24;
+	background-color:#CADB44;
+}
+#Internas.caderno-turismo #Comentarios h2 {
+	background-color:#CADB44;
+}
+
+#Internas.caderno-turismo #Comentarios h2 span {
+	background-color:#9A9A24;
+}
+
+
+
+/* Viva / color:#A52960;		background:#39BB9D;
+-------------------------------------------------------------- */
+
+#Lista li a.viva  { color:#A52960; }
+
+body.caderno-viva #Cabecalho {
+	background:url(../imagens/topo_viva.gif) repeat-x;
+}
+
+body.caderno-viva #Cabecalho h1 {
+	background:url(../imagens/cabeca_viva.gif) no-repeat bottom left;
+}
+body.caderno-viva #MenuSuplementos {
+	background-color:#39BB9D;
+}
+body.caderno-viva #MenuServicos {
+	background-color:#39BB9D;
+}
+body.caderno-viva #Manchete h2 a {
+	color:#A52960;
+}
+.bloco-editoria .viva h3 a,
+div.viva h3,
+div.viva h3 a,
+div.viva ul li,
+#Internas.caderno-viva .bloco-secundarios h3 {
+	color:#39BB9D !important;
+	border-color:#A52960 !important;
+}
+#Internas.caderno-viva #Ultima_hora h2 {
+	background:#39BB9D;
+}
+#Internas.caderno-viva #Ultima_hora h2 a {
+	color:#FFF;
+	background:#A52960;
+}
+#Internas.caderno-viva #Ultima_hora p {
+	background:#39BB9D;
+	border-color:#A52960;
+}
+#Internas.caderno-viva #Ultima_hora dd {
+	border-color:#39BB9D;
+}
+
+#Internas.caderno-viva #Noticia h2.tituloNoticia {
+	color:#A52960;
+}
+#Internas.caderno-viva #Ferramentas {
+	border-color:#39BB9D;
+}
+#Internas.caderno-viva #Relacionadas h2 {
+	background-color:#39BB9D;
+}
+#Internas.caderno-viva #Relacionadas h2 span {
+	background-color:#A52960;
+}
+#Internas.caderno-viva #Relacionadas li {
+	border-color:#39BB9D;
+}
+#Internas.caderno-viva #Relacionadas p {
+	border-left:3px solid #A52960;
+	background-color:#39BB9D;
+}
+#Internas.caderno-viva #Comentarios h2 {
+	background-color:#39BB9D;
+}
+
+#Internas.caderno-viva #Comentarios h2 span {
+	background-color:#A52960;
+}
+
+
+/* Zoeira / Cor 1: #89C765; / Cor 2: #EC008C
+-------------------------------------------------------------- */
+
+#Lista li a.zoeira  { color:#89C765; }
+
+body.caderno-zoeira #Cabecalho {
+	background:url(../imagens/topo_zoeira.gif) repeat-x;
+}
+
+body.caderno-zoeira #Cabecalho h1 {
+	background:url(../imagens/cabeca_zoeira.gif) no-repeat bottom left;
+}
+body.caderno-zoeira #MenuSuplementos {
+	background-color:#EC008C;
+}
+body.caderno-zoeira #MenuServicos {
+	background-color:#EC008C;
+}
+body.caderno-zoeira #Manchete h2 a {
+	color:#89C765;
+}
+.bloco-editoria .zoeira h3 a,
+div.zoeira h3,
+div.zoeira h3 a,
+div.zoeira ul li,
+#Internas.caderno-zoeira .bloco-secundarios h3 {
+	color:#EC008C !important;
+	border-color:#89C765 !important;
+}
+#Internas.caderno-zoeira #Ultima_hora h2 {
+	background:#EC008C;
+}
+#Internas.caderno-zoeira #Ultima_hora h2 a {
+	color:#FFF;
+	background:#89C765;
+}
+#Internas.caderno-zoeira #Ultima_hora p {
+	background:#EC008C;
+	border-color:#89C765;
+}
+#Internas.caderno-zoeira #Ultima_hora dd {
+	border-color:#EC008C;
+}
+
+#Internas.caderno-zoeira #Noticia h2.tituloNoticia {
+	color:#89C765;
+}
+#Internas.caderno-zoeira #Ferramentas {
+	border-color:#EC008C;
+}
+#Internas.caderno-zoeira #Relacionadas h2 {
+	background-color:#EC008C;
+}
+#Internas.caderno-zoeira #Relacionadas h2 span {
+	background-color:#89C765;
+}
+#Internas.caderno-zoeira #Relacionadas li {
+	border-color:#EC008C;
+}
+#Internas.caderno-zoeira #Relacionadas p {
+	border-left:3px solid #89C765;
+	background-color:#EC008C;
+}
+#Internas.caderno-zoeira #Comentarios h2 {
+	background-color:#EC008C;
+}
+
+#Internas.caderno-zoeira #Comentarios h2 span {
+	background-color:#89C765;
+}
+/* Gambiarras Extras */
+
+div.opiniao img {
+	display:none !important;
+}
+div.opiniao h3,
+div.opiniao h3 a,
+div.opiniao ul li,
+#Internas.caderno-opiniao .bloco-secundarios h3 {
+	color:#57AA54 !important;
+	border-color:#00814D !important;
+}
+

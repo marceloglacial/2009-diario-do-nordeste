@@ -1,0 +1,624 @@
+/*
+Estilo geral para o site do Diario do Nordeste
+Autores da folhas de estilos: Joares Miranda e Marcelo Glacial
+Design: Marcelo Glacial
+*/
+
+
+/* Cabecalho Internas
+**********************************************************/
+#Internas #Cabecalho {
+	height:91px;
+	margin-top:18px;
+	padding-top:10px;
+}
+
+#Internas #Cabecalho h1 {
+	text-indent:-5000px;
+	overflow:hidden;
+	width:300px;
+	height:82px;
+	position:absolute;
+	top:28px;
+	z-index:2;
+}
+
+#Internas #Cabecalho h1 a {
+	width:300px;
+	height:25px;
+	margin-top:55px;
+	display:block;
+}
+
+#Internas #NomeCaderno {
+	text-indent:-5000px;
+	overflow:hidden;
+	width:300px;
+	height:55px;
+	position:absolute;
+	top:-229px;
+	z-index:2;
+}
+
+#Internas #NomeCaderno a {
+	width:300px;
+	height:55px;
+	display:block;
+	margin-top:15px;
+}
+
+#Internas #MenuSuplementos {
+	width:589px;
+	padding:4px 0;
+	float:left;
+	margin-top:1px;
+}
+
+#Internas #MenuServicos {
+	width:380px;
+	float:right;
+	padding:4px 0;
+	margin-top:1px;
+}
+
+/* Conteudo Internas
+**********************************************************/
+#Internas #Conteudo {
+	width:690px;
+}
+
+/* Colunas Internas
+**********************************************************/
+#Internas #Colunas {
+	width:145px;
+	float:left;
+	margin:125px 0 10px 0;
+	border-bottom:1px dotted #CCC;
+	padding-bottom:10px;
+}
+
+
+#Internas #Colunas li,
+#Internas #Colunas li a { background-image:none; }
+
+#Internas #colunaEditorias {
+	width:145px;
+	clear:left;
+	float:left;
+	margin-top:70px;
+}
+
+#OutrasEditorias {
+	width:145px;
+	float:left;
+}
+
+#Internas #colunaEditorias img,
+#OutrasEditorias img {
+	width:145px;
+}
+
+/* Manchete e chamadas
+**********************************************************/
+#Internas #Manchete {
+	width:660px;
+	clear:both;
+	float:left;
+}
+
+#Internas #Manchete img {
+	float:left;
+	width:200px;
+}
+
+#Internas #Manchete h2 {
+	width:445px;
+}
+
+#Internas #Manchete p {
+	font:12px Verdana, Geneva, sans-serif;
+	width:445px;
+	float:left;
+	margin:15px 0 0 10px;
+}
+
+#Internas #Manchete p a {
+	color:#000;
+}
+
+/* Materias
+**********************************************************/
+#Materias {
+	width:520px;
+	float:right;
+	margin-top:10px;
+}
+
+#Internas .bloco-secundarios {
+	width:145px;
+	height:226px;
+	overflow:hidden;
+	float:left;
+	margin-right:28px;
+	margin-bottom:30px;
+}
+
+#Internas .bloco-secundarios h3 {
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-bottom:3px solid #12814D;
+	text-transform:lowercase;
+	color:#4EA854;
+	margin-bottom:1px;
+	width:145px;
+	height:20px;
+	overflow:hidden;
+}
+
+#Internas .bloco-secundarios h4 {
+	font:12px Arial, Helvetica, sans-serif;
+}
+
+#Internas .bloco-secundarios h4 a {
+	color:#333;
+}
+
+#Internas .bloco-secundarios h4 strong {
+	margin-bottom:20px;
+}
+
+#Internas .bloco-secundarios img {
+	width:145px;
+}
+
+
+/* Ultima hora
+**********************************************************/
+#Ultima_hora {
+	float:left;
+	width:491px;
+	margin:15px 0;
+}
+
+#Ultima_hora h2 {
+	background-color:#57AA54;
+	padding-bottom:2px;
+	text-transform:lowercase;
+}
+
+#Ultima_hora h2 a {
+	background-color:#12814D;
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	padding:2px 6px;
+	border-right:1px solid #FFF;
+}
+
+#Ultima_hora dl dt {
+	float:left;
+	font:12px Arial, Helvetica, sans-serif;
+	padding:12px 0;
+	font-weight:bold;
+	margin-right:10px;
+}
+
+#Ultima_hora dl dd {
+	padding:12px 0 12px 115px;
+	border-bottom:solid 1px #57AA54;
+	font:12px Arial, Helvetica, sans-serif;
+}
+
+#Ultima_hora dl dd a {
+	color:#000;
+}
+
+#Ultima_hora dl dd strong {
+	margin-right:10px;
+}
+
+#Ultima_hora p {
+	background-color:#52AA54;
+	border-left:3px solid #12814D;
+	text-transform:lowercase;
+	margin-top:5px;
+	padding:4px 0;
+	font:11px Verdana, Geneva, sans-serif;
+}
+
+#Ultima_hora p a {
+	border-left:1px solid #FFF;
+	padding:4px 6px;
+	color:#FFF;
+}
+
+
+/* Noticia
+**********************************************************/
+.noticia #Noticia {
+	width:490px;
+	float:right;
+	margin:10px 25px 0 0;
+}
+
+#Noticia p.cartolaNoticia {
+	font:12px Verdana, Geneva, sans-serif;
+	color:#666;
+	margin-bottom:10px;
+}
+
+#Noticia h2.tituloNoticia {
+	font:bold 30px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#00814D;
+	margin-bottom:20px;
+}
+
+
+/* Ferramentas
+**********************************************************/
+#Ferramentas {
+	border-top:2px solid;
+	width:490px;
+	clear:both;
+	float:left;
+	padding-top:10px;
+	margin-bottom:20px;
+	border-color:#57AA54;
+}
+
+
+#Ferramentas h4 {
+	display:none;
+}
+
+#Ferramentas ul li {
+	float:left;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	text-indent:-5000px;
+}
+
+#Ferramentas ul li a {
+	width:16px;
+	height:16px;
+	display:block;
+}
+
+/* acoes na materia */
+#acoesMateria { width:105px; height:16px; float:left; }
+#acoesMateria li { margin-right:10px; background:url(../imagens/ic-ferramentas.gif) no-repeat; }
+
+#acoesMateria .imprimir { background-position:0 -18px; }
+#acoesMateria .imprimir:hover { background-position:0 0; }
+#acoesMateria .enviar { background-position:-26px -18px; }
+#acoesMateria .enviar:hover { background-position:-26px 0; }
+#acoesMateria .aumentar { background-position:-52px -18px; }
+#acoesMateria .aumentar:hover { background-position:-52px 0; }
+#acoesMateria .diminuir { background-position:-78px -18px; }
+#acoesMateria .diminuir:hover { background-position:-78px 0; }
+
+/* compartilhamento da noticia */
+#compartilhamentoMateria { width:160px; height:16px; float:right; }
+#compartilhamentoMateria li { margin-left:10px; background:url(../imagens/ic-compartilhamento.gif) no-repeat; }
+
+#compartilhamentoMateria .delicious { background-position:0 -18px; }
+#compartilhamentoMateria .delicious:hover { background-position:0 0; }
+#compartilhamentoMateria .digg { background-position:-26px -18px; }
+#compartilhamentoMateria .digg:hover { background-position:-26px 0; }
+#compartilhamentoMateria .googlereader { background-position:-52px -18px; }
+#compartilhamentoMateria .googlereader:hover { background-position:-52px 0; }
+#compartilhamentoMateria .facebook { background-position:-78px -18px; }
+#compartilhamentoMateria .facebook:hover { background-position:-78px 0; }
+#compartilhamentoMateria .myspace { background-position:-104px -18px; }
+#compartilhamentoMateria .myspace:hover { background-position:-104px 0; }
+#compartilhamentoMateria .twitter { background-position:-130px -18px; }
+#compartilhamentoMateria .twitter:hover { background-position:-130px 0; }
+
+/* Extras
+**********************************************************/
+#Extras {
+	width:200px;
+	float:right;
+	position:relative;
+	margin:0 0 10px 15px;
+}
+
+#Extras h3 {
+	display:none;
+}
+
+#Extras img {
+	width:200px;
+}
+
+#FotoDaMateria { position:relative; }
+
+#Extras .legendafoto {
+/*	position:absolute;
+	bottom:3px;
+	left:0;*/
+	width:180px;
+	padding:5px 10px;
+	margin-bottom:3px;
+/*	background:url(../imagens/bg-transparencia.gif) top left;*/
+	background:#DBD8BF;
+	color:#666;
+}
+
+#Relacionadas {
+	margin-top:15px;
+}
+
+#Relacionadas h2 {
+	background-color:#57AA54;
+	padding:3px 0;
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:lowercase;
+}
+
+#Relacionadas h2 span {
+	background-color:#00814D;
+	border-right:2px solid #FFF;
+	padding:3px 8px 3px 6px;
+	color:#FFF;
+}
+
+#Relacionadas li {
+	padding:10px 0;
+	border-bottom:2px solid #00814D;
+}
+
+#Relacionadas li a {
+	color:#000;
+}
+
+#Relacionadas p {
+	text-transform:lowercase;
+	width:197px;
+	border-left:3px solid #00814D;
+	background-color:#57AA54;
+	padding:5px 0;
+	margin-top:5px;
+}
+
+#Relacionadas p a {
+	font:11px Verdana, Geneva, sans-serif;
+	color:#FFF;
+	border-left:2px solid #FFF;
+	padding:6px 0 6px 8px;
+}
+
+
+/* Texto
+**********************************************************/
+#Texto p {
+	line-height:1.7em;
+	margin-bottom:2em;
+}
+#Texto p  a{
+	color:#00814D;
+}
+#Texto p a:hover {
+	text-decoration:undeline;
+	color:#57AA54;
+}
+
+
+/* Comentarios
+**********************************************************/
+#Comentarios {
+	width:490px;
+	clear:both;
+}
+
+#Comentarios h2 {
+	background-color:#57AA54;
+	padding:3px 0;
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform:lowercase;
+	color:#FFF;
+}
+
+#Comentarios h2 span {
+	background-color:#00814D;
+	padding:3px 5px;
+	border-right:1px solid #FFF;
+}
+
+#Comentarios form {
+	background-color:#F4F3EC;
+	margin-top:1px;
+}
+
+#Comentarios form p {
+	border-bottom:1px solid #FFF;
+	padding:0 0 5px 0;
+}
+
+#Comentarios form p label {
+	width:145px;
+	float:left;
+	text-align:right;
+	padding:10px 20px 9px 0;
+	margin-right:5px;
+	border-right:1px solid #FFF;
+
+}
+
+#Comentarios form p input {
+	width:305px;
+	padding:4px;
+	margin:5px 0 0 0;
+}
+
+label.comentario {
+	height:90px;
+}
+
+#Comentarios textarea {
+	width:305px;
+	height:90px;
+	padding:4px;
+	margin:5px 0 0 0;
+}
+
+#btComentar {
+	text-align:right;
+	padding:0 !important;
+}
+
+#btComentar button {
+	background-color:#DBD8BF;
+	cursor:pointer;
+	padding:5px 8px;
+	color:#FFF;
+	font:bold 11px Verdana, Geneva, sans-serif;
+}
+
+/* Enviar para um amigo
+**********************************************************/
+#Envio form {
+	display:block;
+	position:absolute;
+	top:125px;
+
+	background:#DBD8BF;
+	padding:10px 10px 0px 10px;
+	width:470px;
+}
+#Envio legend {
+	padding:7px;
+	margin-bottom:10px;
+	color:#FFF;
+	text-transform:uppercase;
+	display:block;
+	background:#00814D;
+}
+#Envio label {
+	display:block;
+	width:140px;
+	float:left;
+	clear:both;
+	padding:4px 10px;
+	margin-bottom:10px;
+	background:#FFF;
+	text-transform:uppercase;
+	text-align:right;
+}
+#Envio input {
+	width:290px;
+	float:right;
+	padding:3px 10px 4px 3px;
+}
+
+#Envio button {
+	display:block;
+	margin:10px 10px 10px 10px;
+	float:right;
+	width:70px;
+	height:25px;
+	background:#BDA96E;
+	color:#FFF;
+	font-size:100%;
+	text-transform:uppercase;
+}
+
+
+
+
+
+
+
+.caderno-colunas #Noticia #Colunas {
+	width:490px;
+	float:none;
+	margin:0 0 0 2px;
+	border:none;
+}
+
+
+.caderno-colunas #Noticia .tituloNoticia {
+	border-bottom:3px solid #00814D;
+	padding-bottom:10px;
+}
+
+.caderno-colunas #Noticia #Colunas li {
+	width:242px;
+	margin:0 2px 1px 0;
+	float:left;
+	background:#EDEBDF url(../imagens/colunista.jpg) no-repeat right;
+}
+
+.caderno-colunas #Noticia #Colunas h3 {
+	display:none !important;
+}
+
+/* colunistas */
+.caderno-colunas #Noticia #Colunas li.colunista1 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista1.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista5 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista5.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista6 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista6.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista7 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista7.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista9 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista9.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista10 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista10.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista11 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista11.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista12 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista12.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista13 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista13.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista14 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista14.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista16 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista16.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista17 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista17.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista19 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista19.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista21 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista21.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista22 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista22.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista23 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista23.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista27 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista26.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista28 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista28.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista29 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista29.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista31 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista31.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista32 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista32.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista33 a,
+.caderno-colunas #Noticia #Colunas li.colunista77 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista33.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista34 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista34.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista35 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista35.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista45 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista45.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista49 a,
+.caderno-colunas #Noticia #Colunas li.colunista75 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista49.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista51 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista51.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista56 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista56.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista60 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista60.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista61 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista61.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista62 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista62.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista63 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista63.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista65 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista65.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista73 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista73.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista80 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista80.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista81 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista81.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista84 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista84.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista85 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista85.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista87 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista87.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista89 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista89.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista92 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista92.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista93 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista93.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista95 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista95.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista96 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista96.jpg) no-repeat right; }
+.caderno-colunas #Noticia #Colunas li.colunista97 a { background:url(http://diariodonordeste.globo.com/img/nuc/colunista97.jpg) no-repeat right; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Gambiarras */ 
+
+
+#Internas.caderno-opiniao #Ultima_hora {
+	display:none;
+}

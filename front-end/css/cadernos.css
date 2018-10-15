@@ -1,0 +1,206 @@
+/*
+Estilo geral para o site do Diario do Nordeste
+Autores da folhas de estilos: Joares Miranda e Marcelo Glacial
+Design: Marcelo Glacial
+*/
+
+
+/* Cabecalho Internas
+**********************************************************/
+#Internas #Cabecalho {
+	height:91px;
+	margin-top:18px;
+	padding-top:10px;
+}
+
+#Internas #Cabecalho h1 {
+	text-indent:-5000px;
+	overflow:hidden;
+	width:300px;
+	height:82px;
+	position:absolute;
+	top:28px;
+	z-index:2;
+}
+
+#Internas #Cabecalho h1 a {
+	width:300px;
+	height:25px;
+	margin-top:55px;
+	display:block;
+}
+
+#Internas #NomeCaderno {
+	text-indent:-5000px;
+	overflow:hidden;
+	width:300px;
+	height:55px;
+	position:absolute;
+	top:-229px;
+	z-index:2;
+}
+
+#Internas #NomeCaderno a {
+	width:300px;
+	height:55px;
+	display:block;
+	margin-top:15px;
+}
+
+#Internas #MenuSuplementos {
+	width:589px;
+	padding:4px 0;
+	float:left;
+	margin-top:1px;
+}
+
+#Internas #MenuServicos {
+	width:380px;
+	float:right;
+	padding:4px 0;
+	margin-top:1px;
+}
+
+/* Conteudo Internas
+**********************************************************/
+#Internas #Conteudo {
+	width:690px;
+}
+
+/* Colunas Internas
+**********************************************************/
+#Internas #Colunas {
+	width:145px;
+	float:left;
+	margin:125px 0 10px 0;
+	border-bottom:1px dotted #CCC;
+	padding-bottom:10px;
+}
+
+#Internas #colunaEditorias {
+	width:145px;
+	clear:left;
+	float:left;
+	margin-top:70px;
+}
+
+#OutrasEditorias {
+	width:145px;
+	float:left;
+}
+
+/* Manchete e chamadas
+**********************************************************/
+#Internas #Manchete {
+	width:660px;
+	clear:both;
+	float:left;
+}
+
+#Internas #Manchete img {
+	float:left;
+	width:200px;
+}
+
+#Internas #Manchete h2 {
+	width:445px;
+}
+
+#Internas #Manchete p {
+	font:12px Verdana, Geneva, sans-serif;
+	width:445px;
+	float:left;
+	margin:15px 0 0 10px;
+}
+
+#Internas #Manchete p a {
+	color:#000;
+}
+
+#Materias {
+	width:520px;
+	float:right;
+	margin-top:10px;
+}
+
+#Internas .bloco-secundarios {
+	width:145px;
+	float:left;
+	margin-right:28px;
+	margin-bottom:30px;
+}
+
+#Internas .bloco-secundarios h3 {
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-bottom:3px solid #12814D;
+	text-transform:lowercase;
+	color:#4EA854;
+	margin-bottom:1px;
+}
+
+#Internas .bloco-secundarios h4 {
+	font:12px Arial, Helvetica, sans-serif;
+}
+
+#Internas .bloco-secundarios h4 a {
+	color:#333;
+}
+
+/* Ultima hora
+**********************************************************/
+#Ultima_hora {
+	float:left;
+	width:491px;
+	margin:15px 0;
+}
+
+#Ultima_hora h2 {
+	background-color:#52AA54;
+	padding-bottom:2px;
+	text-transform:lowercase;
+}
+
+#Ultima_hora h2 a {
+	background-color:#12814D;
+	font:bold 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	padding:2px 6px;
+	border-right:1px solid #FFF;
+}
+
+#Ultima_hora dl dt {
+	float:left;
+	font:12px Arial, Helvetica, sans-serif;
+	padding:12px 0;
+	font-weight:bold;
+	margin-right:10px;
+}
+
+#Ultima_hora dl dd {
+	padding:12px 0 12px 115px;
+	border-bottom:solid 1px #57AA54;
+	font:12px Arial, Helvetica, sans-serif;
+}
+
+#Ultima_hora dl dd a {
+	color:#000;
+}
+
+#Ultima_hora dl dd strong {
+	margin-right:10px;
+}
+
+#Ultima_hora p {
+	background-color:#52AA54;
+	border-left:3px solid #12814D;
+	text-transform:lowercase;
+	margin-top:5px;
+	padding:4px 0;
+	font:11px Verdana, Geneva, sans-serif;
+}
+
+#Ultima_hora p a {
+	border-left:1px solid #FFF;
+	padding:4px 6px;
+	color:#FFF;
+}

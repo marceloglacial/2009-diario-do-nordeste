@@ -1,0 +1,38 @@
+#Blogs #Primeira_pagina {
+	margin-top:105px;
+}
+
+
+
+.apresentacaoBlog {
+	border-top:1px solid #007839;
+	margin-top:15px;
+	padding-top:15px;
+	line-height:18px;
+}
+
+.apresentacaoBlog h3 {
+	font:bold 18px "Trebuchet MS", Verdana, Arial, Sans-serif;
+	text-transform:none;
+}
+
+.apresentacaoBlog h3 a {
+	font:normal 11px "Trebuchet MS", Verdana, Arial, Sans-serif;
+	color:#58AA55;
+	text-transform:lowercase;
+}
+
+.apresentacaoBlog h3 a:hover {
+	text-decoration:underline;
+}
+
+.ultimoPost { 
+	background: url(http://blogs.diariodonordeste.com.br/automovel/wp-content/themes/Automovel/img/rm_seta.gif) no-repeat center left;
+	padding-left:15px;
+	font-weight:bold;
+	margin-top:10px;
+ }
+
+.ultimoPost a {
+	font-weight:normal;
+}

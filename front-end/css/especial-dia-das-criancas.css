@@ -1,0 +1,83 @@
+#diadascriancas #Primeira_pagina {
+	margin-top:105px;
+}
+
+
+#Principais h3 {
+	display:block;
+	color:#007839;
+}
+
+
+.dia_criancas #Comente label {
+	width:120px;
+	
+}
+
+.dia_criancas #Comente input {
+	width:295px;
+}
+
+.dia_criancas #Comentarios {
+	margin-bottom:10px;
+}
+
+.ZonaArquivos {
+	float:left;
+	clear:both;
+	padding:10px 5px 5px 0;
+	margin:0 0 8px 0;
+	background-color:#D1CDAD;
+	border:1px solid #FFF;
+	width:441px;
+}
+
+.ZonaArquivos label {
+	background:none !important;
+}
+
+.dia_criancas label.Mensagem {
+	position:relative;
+	top:2px;
+	z-index:100;
+}
+
+.dia_criancas #mensagem {
+	text-indent:135px;
+}
+
+.ZonaArquivos #youtube {
+	width:280px !important;
+	margin-right:3px;
+}
+
+.dia_criancas #Comentar {
+	cursor:pointer;
+}
+
+.dia_criancas #Comente p {
+	clear:both;
+	margin:8px 0;
+}
+
+.AlertaCampo {
+	color:#F00;
+}
+
+.ExplicacaoEnvio {
+	font-weight:bold;
+}
+
+#CaixaTutorial {
+	border:1px solid #DDD9C0;
+	background-color:#F5F5F5;
+	padding:10px;
+	margin-bottom:5px;
+	clear:both;
+}
+
+#CaixaTutorial li {
+	margin:5px 0;
+	background:url(http://diariodonordeste.globo.com/img/ic-lista-tutorial.gif) no-repeat center left;
+	padding-left:10px;
+}

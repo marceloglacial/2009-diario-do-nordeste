@@ -1,0 +1,214 @@
+
+/*  Diario do Nordeste - Reformulacao 
+	Data de in�cio: 04/12/2006
+	Ultima alteracao: 27/03/2007
+	Design: Marcelo Glacial
+ */
+
+* { /* Evitar quebra de layout */
+	word-wrap: break-word;
+}
+form * {
+	border:none;
+	border-color:#FFF;
+}
+
+
+/* Cabecalho
+----------------------------------------------------*/
+#Cabecalho p {
+	margin-right: 5px;
+}
+/* Indicadores e Clima
+----------------------------------------------------*/
+#Clima, 
+#Indicadores {
+	clear:both;
+}
+
+/* Busca
+----------------------------------------------------*/
+#Busca {
+	clear:both;
+}
+#Busca input {
+	border:solid 1px #000;
+	border-right:none;
+}
+#Busca button {
+	position:relative;
+	left:3px;
+	margin-left:-3px;
+	border:solid 1px #000;
+	border-left:none;
+}
+
+/* Noticias
+----------------------------------------------------*/
+#Noticia #Texto ol li {
+	list-style:decimal inside;
+	margin-left:0;
+}
+
+#Ferramentas {
+	width:49%;
+}
+
+
+/* Extras
+----------------------------------------------------*/
+#Extras {
+	margin-top:10px;
+	clear:left;
+}
+#Extras #Galeria,
+#Extras #Relacionadas,
+#Extras #ImagenseNotas,
+#Extras #Charge,
+#Extras #Colunas {
+	width:225px;
+	float:right;
+}
+#Extras #Relacionadas,
+#Extras #Colunas {
+	clear:right;
+}
+/* Formularios de Comentarios e Contato
+----------------------------------------------------*/
+#Contato label {
+	width:94px;
+}
+#Contato input {
+	width:321px;
+}
+#Contato select {
+	width:320px;
+	float:right;
+	background:#FFF;
+}
+
+#Contato label.descricao,
+#Comentarios label.comentario {
+	width:85px;
+}
+#Contato textarea,
+#Comentarios textarea { 
+	text-indent:0;
+	width:333px;
+	padding-left:110px;
+}
+#Comentarios button { /* corrige o espaco entre o comentario e o botao */
+	margin-top:0px;
+}
+
+/* Especiais
+----------------------------------------------------*/
+#Especial {
+	height:1%;
+}
+
+/* Indique
+----------------------------------------------------*/
+#Envio {
+	left:0;
+	width:100%;
+}
+#Envio button {
+	margin-top:0px;
+}
+
+/* Enquete
+----------------------------------------------------*/
+#Enquete {
+	height:1%;
+}
+#Enquete legend {
+	padding-left:0;
+}
+#Enquete p.pergunta {
+	margin:0;
+}
+#Enquete p.opcoes {
+	margin:0 0 0 6px;
+}
+#Enquete button {
+	width:132px;
+	margin-left:141px;
+}
+
+
+/* Entretenimento e ArteCultura
+----------------------------------------------------*/
+#Destaque_Caderno div,
+#ArteCultura div,
+#Entretenimento div {
+	float:left;
+	width:130px;
+}
+#Entretenimento *,
+#ArteCultura * {
+	margin:0px;
+	padding:0px;
+}
+
+#ArteCultura h4 a {
+	padding-top:7px;
+}
+
+/* Menu
+----------------------------------------------------*/
+#Menu ul li a {
+	height:1%;
+}
+/* Edicoes Anteriores
+----------------------------------------------------*/
+#Anos ul li {
+	width:50%;
+}
+#Anos ul li ul li {
+	width:43%;
+}
+
+
+/* Acesso Restrito
+----------------------------------------------------*/
+#Noticia.login form #Lembrar,
+#Noticia.login form #eCpf, 
+#Noticia.login form #eEmail {
+	border:0;
+}
+#Noticia.login form input,
+#Noticia.cadastrar form input {
+	margin-right:5px;
+}
+#Noticia.login form button,
+#Noticia.cadastrar form button {
+	height:21px;
+}
+
+#Noticia.cadastrar form #SexoCodigo1, 
+#Noticia.cadastrar form #SexoCodigo2, 
+#Noticia.cadastrar form #PerguntaCodigo19s, 
+#Noticia.cadastrar form #PerguntaCodigo19n, 
+#Noticia.cadastrar form #PerguntaCodigo20a, 
+#Noticia.cadastrar form #PerguntaCodigo20b, 
+#Noticia.cadastrar form #PerguntaCodigo20c, 
+#Noticia.cadastrar form #PerguntaCodigo21a, 
+#Noticia.cadastrar form #PerguntaCodigo21b, 
+#Noticia.cadastrar form #PerguntaCodigo21c, 
+#Noticia.cadastrar form #PerguntaCodigo21d, 
+#Noticia.cadastrar form #PerguntaCodigo22a, 
+#Noticia.cadastrar form #PerguntaCodigo22b, 
+#Noticia.cadastrar form #PerguntaCodigo22c, 
+#Noticia.cadastrar form #PerguntaCodigo22d, 
+#Noticia.cadastrar form #PerguntaCodigo22e, 
+#Noticia.cadastrar form #NewsletterS, 
+#Noticia.cadastrar form #NewsletterN {
+	border:0;
+}
+
+
+#Site { position:relative; }
+#Destaque_Caderno { margin:10px 0; float:none; width:130px; position:absolute; right: 10px; }
+
+#Noticia { clear:none !important; }

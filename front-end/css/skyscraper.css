@@ -1,0 +1,37 @@
+/* 
+ * Diario do Nordeste
+ * ---------------------------------------------------------------------------------------
+ */
+
+#Sky {
+/*	position:absolute;
+	top:67px;
+	margin-left:780px;
+	display:block;*/
+/*	width:200px;
+	height:700px;*/
+/*	background:#FFF;*/
+}
+#Buscape {
+/*	margin-top:617px;*/
+}
+
+
+
+/* 
+ * Portal Verdes Mares
+ * ---------------------------------------------------------------------------------------
+ */
+
+#sitePVM #Extras #Sky {
+	position:absolute;
+	top:10px;
+	right:0;
+	width:120px;
+	height:600px;
+}
+
+
+#sitePVM #Buscape {
+	top:50px;
+}

@@ -1,0 +1,1057 @@
+/*  Diario do Nordeste
+	Data de início: 04/12/2006
+	blogUltima alteracao: 11/04/2007
+	Design: Marcelo Glacial
+ */
+
+/* ================================================= */
+/*  CSS Global - estilos.css                         */
+/* ================================================= */
+
+
+/* Reset 
+----------------------------------------------------*/
+* {
+	text-decoration:none;
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:none;
+}
+
+/* Geral 
+----------------------------------------------------*/
+html {
+	text-align:center;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:70%;
+	color:#333;
+/*	background:#FFF;*/
+	background:#47A662 url(http://diariodonordeste.globo.com/img/nuc/fundo_degrade.jpg) repeat-x;
+}
+h2 {
+	font-family:"Trebuchet MS", Verdana;
+	font-weight:bold;
+	font-size:190%;
+	line-height:0.8em;
+	margin:5px 0;
+	display:none;
+}
+h2 a:hover {
+	text-decoration:none;
+}
+h3 {
+	font-family:"Trebuchet MS", Verdana;
+	font-weight:bold;
+	font-size:100%;
+	text-transform:uppercase;
+}
+h3 a:hover {
+	text-decoration:none;
+}
+
+h4 {
+	font-family:"Trebuchet MS", Verdana;
+	font-weight:bold;
+	font-size:130%;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+a:hover {
+	text-decoration:underline;
+}
+hr {
+	display:none;
+}
+
+/* Site
+----------------------------------------------------*/
+#Site {
+	width:755px;
+	background:#FFF;
+	margin:auto;
+	padding:65px 10px 10px 10px; /* temporario */
+	text-align:left;
+}
+/* Navegacao
+----------------------------------------------------*/
+#Navegacao {
+	display:none;
+}
+
+
+/* Cabeçalho
+----------------------------------------------------*/
+#Cabecalho {
+	background:url(http://diariodonordeste.globo.com/img/nuc/topo_fundo.jpg) repeat-x;
+	height:76px;
+	display: block;
+}
+#Cabecalho h1 a {
+	display:block; 
+	font-size:0px;
+	height:0px;
+	width:158px;
+	margin-top:10px;
+	padding:66px 0px 0px 0px;
+	overflow:hidden;
+	background:url(http://diariodonordeste.globo.com/img/nuc/logo.jpg) top left no-repeat;
+	float:left;
+}
+#Cabecalho p {
+	font-size:10px;
+	float:right;
+	margin:61px 10px 0 0;
+	text-transform:uppercase;
+	color:#FFF;
+}
+/* Conteudo
+----------------------------------------------------*/
+#Conteudo {
+	width:610px;
+	float:right;
+	margin:0 0 10px 13px;
+	background:#FFF;
+}
+
+/* Adsense
+----------------------------------------------------*/
+#Adsense {
+	width:468px;
+	float:left;
+	clear:both;
+	margin:10px 0;
+}
+
+/* Ultima Hora
+----------------------------------------------------*/
+#Ultima_hora {
+	display:block;
+	width:468px;
+	float:left;
+	clear:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+#Ultima_hora h2 {
+	display:block;
+	margin:0px;
+	padding:7px 10px 4px 10px;
+	text-transform:uppercase;
+	font-size:100%;
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_padrao.jpg);
+}
+#Ultima_hora h2 a {
+	display:block;
+	color:#FFF;
+}
+#Ultima_hora dl dt {
+	float:left;
+	padding-top:3px;
+	font-weight:bold;
+	color:#007839;
+	margin-right:10px;
+}
+#Ultima_hora dl dd {
+	padding:3px 0 3px 135px;
+	border-bottom:solid 1px #000;
+}
+#Ultima_hora strong {
+	text-transform:uppercase;
+	margin-right:10px;
+}
+#Ultimas #Ultima_hora h2 {
+	display:none;
+}
+#Ultima_hora.relacionadas dl dd {
+	padding:3px 0 3px 90px;		
+}
+#formPage {
+	display:block;
+	width:468px;
+	border-top:solid 2px #007839;
+	padding-top:5px;
+	margin-bottom:10px;
+	text-align:center;
+}
+/* Busca
+----------------------------------------------------*/
+#Busca {
+	position:absolute;
+	top:67px;
+	padding:19px 0 0 3px;
+/*	padding:26px 0 0 3px; */ /* enquanto nao tinha Edicoes anteriores*/
+	margin-left:572px;
+	background:#FFF url(http://diariodonordeste.globo.com/img/nuc/busca_topo.jpg) no-repeat top right;
+	width:180px;
+}
+#Busca * {
+	font-size:9px;
+	text-transform:lowercase;
+}
+#Busca label,
+#Busca legend {
+	display:none;
+}
+#Busca input {
+	padding:2px 5px;
+	border:solid 1px;
+	border-right:none;
+	width:154px;
+	float:left;
+}
+#Busca button {
+	border:solid 1px;
+	border-left:none;
+	background:#FFF url(http://diariodonordeste.globo.com/img/nuc/busca_lupa.jpg) center left no-repeat;
+	display:block;
+	float:left;
+	width:15px;
+	height:19px;
+	text-indent:-5000px;
+}
+
+/* Menu 
+----------------------------------------------------*/
+#Menu {
+	width:132px;
+	float:left;
+	clear:left;
+	margin:12px 0 0 0;
+	background:#FFF;
+}
+#Menu h3 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/menu_titulos.jpg);
+	padding:4px 5px 1px 5px;
+	color:#FFF;
+}
+#Menu ul li a {
+	font-family:"Trebuchet MS", Verdana;
+	font-size:11px;
+	border-top:solid 1px #61A541;
+	display:block;
+	padding:2px 5px;
+}
+#Menu ul li a:hover {
+	background:#00814D;
+	color:#FFF;
+	text-decoration:none;
+}
+/* Indicadores
+----------------------------------------------------*/
+#Indicadores {
+	position:absolute;
+	top:79px;
+	margin-left:355px;
+	text-align:right;
+	text-transform:uppercase;
+	font-weight:bold;
+	clear:both;
+}
+/* Clima
+----------------------------------------------------*/
+#Clima {
+	position:absolute;
+	top:79px;
+	margin-left:240px;
+	font-weight:bold;
+	padding-right:7px;
+	border-right: dotted 2px #CCC;
+	clear:both;
+}
+#Clima a {
+	color:#5FA640;
+}
+#Clima img {
+	float:left;
+}
+#Clima ul {
+	float:left;
+	padding:5px 10px;
+}
+#Clima ul li {
+	margin-left:15px;
+}
+#Clima ul li.maxima {
+	list-style-image: url(http://diariodonordeste.globo.com/img/nuc/seta_cima.jpg);
+}
+#Clima ul li.minina,
+#Clima ul li.minima {
+	list-style-image: url(http://diariodonordeste.globo.com/img/nuc/seta_baixo.jpg);
+}
+
+/* Rodape
+----------------------------------------------------*/
+#Rodape {
+	clear:both;
+	color:#FFF;
+	background:url(http://diariodonordeste.globo.com/img/nuc/rodape_fundo.jpg);
+	height:24px;
+	padding:7px;
+	font-family:"Trebuchet MS", Verdana;
+	text-transform:uppercase;
+}
+#Rodape a {
+	color:#FFF;
+}
+#Rodape address {
+	font-style:normal;
+}
+#Rodape ul {
+	float:right;
+}
+#Rodape ul li {
+	float:left;
+	margin-left:10px;
+}
+
+/* Publicidade
+----------------------------------------------------*/
+#Publicidade #Top {
+	position:absolute;
+	top:151px;
+	margin-left:145px;
+	clear:both;
+}
+
+/* ================================================= */
+/*  CAPAS - capa.css                                  */
+/* ================================================= */
+
+/* Primeira Página
+----------------------------------------------------*/
+#Primeira_pagina {
+	width:132px;
+	float:left;
+	clear:left;
+	height:240px;
+	background:#FFF;
+	margin-top:10px;
+}
+#Primeira_pagina h3 {
+	background:url(http://diariodonordeste.globo.com/img/nuc/menu_titulos.jpg) top left repeat-x;
+	padding:4px 5px 1px 5px;
+	color:#FFF;
+	margin-bottom:4px;
+}
+#Primeira_pagina img {
+	width:126px;
+	background:#FFF;
+	padding:2px;
+	margin:1px 0;
+	border:solid 1px #999;
+/*	float:left;*/
+	clear:left;
+}
+
+/* Destaques
+----------------------------------------------------*/
+#Destaques {
+	margin:2px 10px 10px 0;
+	float:left;
+	clear:left;
+	width:468px;
+}
+
+/* Principais
+----------------------------------------------------*/
+#Principais {
+	display:block;
+	clear:right;
+	min-height:120px;
+}
+#Principais h2 {
+	display:block;
+}
+#Principais h3 a {
+	display:block;
+	border:solid 1px;
+	border-bottom:none;
+	border-right:none;
+	padding:3px 0 0 5px;
+}
+#Principais h3 a {
+	border:none;
+	color:#007839;
+	padding:0px;
+}
+#Principais p {
+	clear:right;
+}
+#Principais .foto {
+	float:left;
+	width:160px;
+	margin:2px 10px 10px 0;
+}
+#Principais .foto img {
+	width:160px;
+	height:120px;
+}
+#Principais .legenda strong { 
+	padding-left:15px;
+	text-transform:uppercase;
+	color: #007839;
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima.jpg) left no-repeat;
+}
+
+/* Secundarios
+----------------------------------------------------*/
+#Secundarios {
+	margin:10px 0;
+}
+#Secundarios h3 a {
+	display:block;
+	border:solid 1px #00814D;
+	border-bottom:none;
+	border-right:none;
+	padding:2px 0 0 5px;
+}
+#Secundarios div {
+	margin-bottom:10px;
+	min-height:90px;
+	clear:left;
+}
+#Secundarios p {
+}
+#Secundarios img {
+	float:left;
+	clear:left;
+	margin:2px 7px 0 0;
+	width:65px;
+	height:49px;
+}
+
+/* ================================================= */
+/*  Cadernos e capa Offline - cadernos.css           */
+/* ================================================= */
+
+/* Título do Caderno
+----------------------------------------------------*/
+#Caderno {
+	width:468px;
+	float:left;
+	margin-top:70px;
+}
+#Caderno h2 {
+	display:block;
+}
+#Caderno h2 a {
+	display:block;
+	padding:7px 0;
+	font-size:120%;
+	text-transform:uppercase;
+	letter-spacing:-3px;
+	color:#007839;
+	border-bottom:solid 4px #007839; 
+}
+
+/* Extras
+----------------------------------------------------*/
+#Extras {
+	margin-bottom:10px;
+	line-height:normal;
+/*	clear:both;*/
+}
+#Extras #Galeria,
+#Extras #Relacionadas,
+#Extras #ImagenseNotas,
+#Extras #Charge,
+#Extras #Colunas {
+	width:225px;
+	float:right;
+	clear:left;
+	padding-left:10px;
+	background:#FFF;
+	text-align:left;
+}
+#Extras h2 {
+	display:block;
+	margin:0px;
+	text-transform:uppercase;
+	font-size:100%;
+	padding:6px 10px 4px 10px;
+	color:#FFF;
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_padrao.jpg);
+}
+#Extras h2 a {
+	display:block;
+	color:#FFF;
+}
+#Extras #Galeria p {
+	display:block;
+	clear:right;
+	background:url(http://diariodonordeste.globo.com/img/nuc/seta_cima.jpg) 0px 2px no-repeat;
+	text-indent:15px;
+}
+#Extras #Galeria img {
+	float:right;
+}
+#Extras #Galeria p a {
+	color:#000;
+}
+
+/* Charges e Imagens e Notas
+----------------------------------------------------*/
+#Noticia #Extras {
+	margin-top:10px;
+}
+#Extras img {
+	border-top:solid 1px #FFF;
+	width:225px;
+}
+#Charge {
+	margin-bottom:10px;
+}
+/* Quadrinhos
+----------------------------------------------------*/
+#Noticia #Extras.quadrinhos * {
+	float:left;
+	clear:both;
+	width:448px;
+}
+#Noticia #Extras.quadrinhos #Galeria,
+#Noticia #Extras.quadrinhos #Relacionadas {
+	padding-left:0px;
+	padding-right:0px;
+	width:448px;
+}
+#Noticia #Extras.quadrinhos #Relacionadas * {
+	width:438px;
+}
+#Noticia #Extras.quadrinhos img {
+	width:468px;
+}
+
+
+/* Edições Anteriores
+----------------------------------------------------*/
+#Manchetes,
+#Anos {
+	width:468px;
+	float:left;
+	clear:left;
+	margin-bottom:10px;
+}
+#Manchetes h3,
+#Anos h3 {
+	display:block;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+	font-size:100%;
+	padding:4px 10px;
+	color:#FFF;
+	background:url(http://diariodonordeste.globo.com/img/nuc/titulos_padrao.jpg) top repeat-x;
+}
+#Manchetes ul li a {
+	padding:3px 0;
+	border-bottom:solid 1px #000;
+}
+#Anos ul li {
+	font-size:120%;
+	font-weight:bold;
+	width:33%;
+	float:left;
+	padding-bottom:5px;
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario.jpg) no-repeat 0 4px;
+}
+#Anos ul li ul li {
+	margin-left:10px;
+	font-size:100%;
+	font-weight:normal;
+	float:none;
+}
+#Manchetes ul li a, #Anos ul li a {
+	display:block;
+	margin-left:13px;
+}
+
+/* Colunas
+----------------------------------------------------*/
+#Colunas.lista {
+	width:468px;
+	float:left;
+	clear:left;
+}
+#Colunas h2 {
+	margin-bottom:5px;
+}
+#Colunas li {
+	background:url(http://diariodonordeste.globo.com/img/nuc/colunista.jpg) no-repeat right;
+	margin:0 0 5px 0;
+}
+#Colunas li a {
+	background:#61A541;
+	color:#FFF;
+	display:block;
+	height:24px;
+	overflow:hidden;
+	padding:10px 5px 0 10px;
+	margin-right:39px;
+	line-height:12px;
+}
+
+
+/* ================================================= */
+/*  Noticias e Materias - noticia.css                */
+/* ================================================= */
+
+/* Noticias
+----------------------------------------------------*/
+#Noticia {
+	margin:2px 10px 10px 0;
+	float:left;
+	clear:left;
+	width:468px;
+}
+#Noticia h2 {
+	display:block;
+}
+#Noticia h3 {
+	color:#007839;
+}
+#Noticia p.chamada {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_principal.jpg) no-repeat 0 2px;
+	text-indent:15px;
+	padding-bottom:10px;
+}
+#Noticia p.autor {
+	display:block;
+	width:48%;
+	height:30px;
+	float:right;
+	text-align:right;
+	border-top:dotted 2px;
+	padding-top:4px;
+}
+#Noticia p.autor strong {
+	text-transform:uppercase;
+	font-size:110%;
+}
+#Noticia p {
+/*	text-align:justify;*/
+	padding-bottom:10px;
+	line-height:1.3em;
+}
+#Noticia p a {
+	color:#00814D;
+}
+#Noticia p a:hover {
+	text-decoration:underline;
+}
+#Noticia #Texto ul li {
+	margin-left:20px;
+	padding:0 0 7px 0;
+	list-style-type: disc;
+}
+#Noticia #Texto ol li {
+	margin-left:20px;
+	padding:0 0 7px 0;
+	list-style:decimal;
+}
+
+#Ferramentas {
+	float:left;
+	width:52%;
+	height:50px;
+}
+#Ferramentas h4{
+	display:none;
+}
+#Ferramentas ul li {
+	float:left;
+	width:16px;
+	margin:15px 10px 0 0;
+}
+#Ferramentas ul li a {
+	display:block;
+	font-size:0;
+	width:0;
+	height:0;
+	padding:16px 0 0 16px;
+	overflow:hidden;
+}
+#Ferramentas ul li.imprimir {
+	background:url(http://diariodonordeste.globo.com/img/nuc/ferramentas_imprimir.jpg) no-repeat top left;
+}
+#Ferramentas ul li.enviar {
+	background:url(http://diariodonordeste.globo.com/img/nuc/ferramentas_enviar.jpg) no-repeat top left;
+}
+#Ferramentas ul li.aumentar {
+	background:url(http://diariodonordeste.globo.com/img/nuc/ferramentas_aumentar.jpg) no-repeat top left;
+}
+#Ferramentas ul li.diminuir {
+	background:url(http://diariodonordeste.globo.com/img/nuc/ferramentas_diminuir.jpg) no-repeat top left;
+}
+
+#Noticia #Texto {
+	clear:left;
+}
+
+#Relacionadas h2 {
+	border: dotted 2px #000;
+	border-bottom:none;
+	border-right:none;
+	margin-bottom:3px;
+	background:none;
+	color:#000;
+}
+#Relacionadas h2 a {
+	background:#FFF;
+	color:#000;
+}
+#Relacionadas ul li {
+	padding-bottom:5px;
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario.jpg) no-repeat 0 4px;
+}
+#Relacionadas ul li a {
+	display:block;
+	margin-left:13px;
+}
+#Relacionadas p a {
+	background:url(http://diariodonordeste.globo.com/img/nuc/bullet_secundario.jpg) no-repeat 0 4px;
+	color:#000;
+	font-weight:bold;
+	display:block;
+	text-indent:15px;
+}
+
+/* Formulario de Contato
+----------------------------------------------------*/
+#Contato {
+	display:block;
+	width:468px;
+	float:left;
+	clear:both;
+	background:#DCD9C0 url(http://diariodonordeste.globo.com/img/nuc/comentarios_fundo.jpg) repeat-x top;
+	margin-top:5px;
+}
+
+#Contato legend {
+	padding:6px 0 18px 0;
+	color:#FFF;
+	text-transform:uppercase;
+}
+#Contato fieldset {
+	padding:0 10px;
+}
+#Contato label {
+	display:block;
+	width:90px;
+	float:left;
+	clear:both;
+	padding:4px 10px;
+	margin-bottom:10px;
+	background:#FFF;
+	text-transform:uppercase;
+}
+#Contato label.descricao {
+	position:relative;
+	top:2px;
+	z-index:10;
+}
+#Contato input {
+	width:325px;
+	float:right;
+	padding:3px 10px 2px 3px;
+}
+#Contato select {
+	float:left;
+	width:338px;
+	height:19px;
+	padding-top:2px;
+}
+#Contato textarea {
+	width:438px;
+	padding:5px;
+	margin-top:-32px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-indent:107px;
+	line-height:1.5em;
+	font-size:110%;
+}
+#Contato button {
+	display:block;
+	margin:10px 0;
+	float:right;
+	width:200px;
+	height:20px;
+	background:#BDA96E;
+	color:#FFF;
+	font-size:100%;
+	text-transform:uppercase;
+}
+
+/* Formulario de Comentarios
+----------------------------------------------------*/
+#Comentarios {
+	display:block;
+	width:468px;
+	float:left;
+	clear:both;
+	background:#DCD9C0 url(http://diariodonordeste.globo.com/img/nuc/comentarios_fundo.jpg) repeat-x top;
+	margin-top:5px;
+}
+
+#Comentarios legend {
+	padding:6px 0 18px 0;
+	color:#FFF;
+	text-transform:uppercase;
+}
+#Comentarios fieldset {
+	padding:0 10px;
+}
+#Comentarios label {
+	display:block;
+	width:80px;
+	float:left;
+	clear:both;
+	padding:4px 10px;
+	margin-bottom:10px;
+	background:#FFF;
+	text-transform:uppercase;
+}
+#Comentarios label.comentario {
+	position:relative;
+	top:2px;
+	z-index:100;
+}
+#Comentarios input {
+	width:335px;
+	float:right;
+	padding:3px 10px 2px 3px;
+}
+#Comentarios textarea {
+	width:438px;
+	padding:5px;
+	margin-top:-32px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:110%;
+	text-indent:100px;
+	line-height:1.5em;
+}
+#Comentarios button {
+	display:block;
+	margin:10px 0;
+	float:right;
+	width:100px;
+	height:20px;
+	background:#BDA96E;
+	color:#FFF;
+	font-size:100%;
+	text-transform:uppercase;
+}
+/* Formulario de Envio para um amigo
+----------------------------------------------------*/
+#Envio form {
+	display:block;
+	position:absolute;
+	top:270px;
+
+	background:#DCD9C0 url(http://diariodonordeste.globo.com/img/nuc/comentarios_fundo.jpg) repeat-x top;
+	margin-left:70px;
+	padding:0 10px;
+	width:323px;
+}
+#Envio legend {
+	padding:6px 0 18px 0;
+	color:#FFF;
+	text-transform:uppercase;
+}
+#Envio label {
+	display:block;
+	width:140px;
+	float:left;
+	clear:both;
+	padding:4px 10px;
+	margin-bottom:10px;
+	background:#FFF;
+	text-transform:uppercase;
+	text-align:right;
+}
+#Envio input {
+	width:150px;
+	float:right;
+	padding:3px 10px 2px 3px;
+}
+
+#Envio button {
+	display:block;
+	margin:10px 0 10px 10px;
+	float:right;
+	width:50px;
+	height:20px;
+	background:#BDA96E;
+	color:#FFF;
+	font-size:100%;
+	text-transform:uppercase;
+}
+
+
+/* ================================================= */
+/*  DESTAQUES                                        */
+/* ================================================= */
+
+/* Arte e Cultura
+---------------------------------------------------- */
+#ArteCultura {
+	margin:0px 0 10px 480px;
+}
+#ArteCultura div {
+	background:#DBD9C0;
+	margin:0 0 10px 0;
+}
+#ArteCultura h3 {
+	border-top:solid 1px;
+	padding-top:1px;
+	background:#FFF;
+}
+#ArteCultura h3 a {
+	display:block;
+	background:#007839;
+	padding:2px 5px;
+	color:#FFF;
+}
+#ArteCultura h4 {
+	padding:7px 10px 0 10px;
+	line-height:1.1em;
+}
+#ArteCultura p {
+	padding:0 10px 10px 10px;
+}
+#ArteCultura div img {
+	border-top:solid 1px #FFF;
+	width:130px;
+	height:98px;
+}
+/* Entretenimento
+----------------------------------------------------*/
+#Entretenimento {
+	margin:10px 0 10px 480px;
+}
+#Entretenimento div {
+	background:#DCD9C0;
+	margin:0 0 10px 0;
+}
+#Entretenimento h3 {
+	padding-top:1px;
+	border-top:solid 1px;
+	background:#FFF;
+}
+#Entretenimento h3 a {
+	display:block;
+	background:#007839;
+	padding:2px 5px;
+	color:#FFF;
+}
+#Entretenimento h4 {
+	padding:7px 10px 0 10px;
+	line-height:1.1em;
+}
+#Entretenimento p {
+	padding:0 10px 10px 10px;
+}
+#Entretenimento div img {
+	border-top:solid 1px #FFF;
+	width:130px;
+	height:98px;
+}
+
+/* Destaques de caderno - offline
+----------------------------------------------------*/
+#Destaque_Caderno {
+	margin:10px 0 10px 480px;
+}
+#Destaque_Caderno div {
+	background:#DCD9C0;
+	margin:0 0 10px 0;
+}
+#Destaque_Caderno h3 {
+	padding-top:1px;
+	border-top:solid 1px;
+	background:#FFF;
+}
+#Destaque_Caderno h3 a {
+	display:block;
+	background:#007839;
+	padding:2px 5px;
+	color:#FFF;
+}
+#Destaque_Caderno h4 {
+	padding:7px 10px 0 10px;
+	line-height:1.1em;
+}
+#Destaque_Caderno p {
+	padding:0 10px 10px 10px;
+}
+#Destaque_Caderno div img {
+	border-top:solid 1px #FFF;
+	width:130px;
+	height:98px;
+}
+
+/* Circulacao
+----------------------------------------------------*/
+#Noticia.circulacao object {
+	display:block;
+	margin:0 auto;
+}
+
+/* Barras
+----------------------------------------------------*/
+#Barras {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+/* Lista com Icones
+----------------------------------------------------*/
+#Noticia #Texto ul.arquivos li {
+	list-style:none;
+	margin:0;
+}
+#Noticia #Texto ul.arquivos li.pdf16 a {
+	display:block;
+	background: url(/img/nuc/icone_pdf16.png) no-repeat 0 2px;
+    padding:0 0 0 22px;
+}
+#Noticia #Texto ul.arquivos li.pdf22 a {
+	display:block;
+	background: url(/img/nuc/icone_pdf22.png) no-repeat 0 2px;
+    padding:0 0 0 27px;
+}
+#Noticia #Texto ul.arquivos li.pdf32 a {
+	display:block;
+	background: url(/img/nuc/icone_pdf32.png) no-repeat 0 2px;
+    padding:0 0 0 37px;
+}
+
+/* Tabelas
+----------------------------------------------------*/
+
+#Conteudo table {
+	clear:both;
+	width:100%;
+	border:0;
+	padding:0;
+	margin:10px 0;
+	border-collapse: collapse;
+}
+#Conteudo table thead tr th {
+	padding:5px;
+	font-weight:bold;
+	border-bottom:1px solid #666;
+}
+
+#Conteudo table tr td {
+	padding:5px;
+	border-bottom:1px solid #E1E1E1;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}

@@ -1,0 +1,43 @@
+/* CSS Document - Publicidade extra
+   Data de publicacao: 23/03/2007
+   Ultima alteracao: 27/03/2007
+   Autor: Marcelo Glacial
+ */
+
+/* Buscape
+----------------------------------------------------*/
+/*#Site {
+	padding-right:150px;
+	background:url(../img/nuc/fundo_branco.gif) repeat-y;
+}*/
+#glbBarra {
+
+}
+#glbBarra ul.glbBotoes {
+	padding-right:139px;
+	*padding-right:0;
+}
+#Barra_pvm {
+	padding-right:150px;
+	*padding-right:0;
+}
+#Buscape {
+	background:none;
+	position:absolute;
+	top:65px;
+	margin-left:780px;
+	width:130px !important;
+	height:700px;
+	padding:0 !important;
+}
+
+#Buscape iframe {
+	background:none;
+	width:130px !important;
+	padding:0 !important;
+	margin:0 !important;
+}
+
+body {
+	padding-right:140px;
+}

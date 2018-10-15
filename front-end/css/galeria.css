@@ -1,0 +1,96 @@
+/* Zerar
+-----------------------------------------------------------*/
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:70%;
+	margin:10px;
+}
+a {
+	text-decoration:none;
+}
+img {
+	border:none;
+}
+
+/* Cabecalho
+-----------------------------------------------------------*/
+.marca {
+	float:left;
+}
+#Banner {
+	float:right;
+}
+
+/* Foto Grande
+-----------------------------------------------------------*/
+#Imagem {
+	position:absolute;
+	top:80px;
+	left:10px;
+	width:391px;
+	border-top:solid 5px #57AA54;
+}
+#Imagem img {
+	width:390px;
+	height:293px;
+	padding-top:1px;
+}
+.creditos {
+	position:absolute;
+	top:295px;
+	left:0px;
+	width:601px;
+	display:block;
+	padding:10px 9px 10px 10px;
+	background:#00814D;
+	color:#FFF;
+}
+
+/* Mais fotos
+-----------------------------------------------------------*/
+#Lateral {
+	position:absolute;
+	top:80px;
+	right:10px;
+	width:300px;	
+	width:229px;
+	height:294px;
+	border-top:solid 5px #57AA54;
+	background-color:#DCD9C0;
+}
+.data {
+	display:block;
+	padding:5px 10px;
+	border-top:solid 1px #FFF;
+	background:#00814D;
+	color:#FFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	letter-spacing:0.3em;
+}
+h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:150%;
+	line-height:1em;
+	padding:10px 10px 0 10px;
+}
+p {
+	padding:10px;
+}
+.legenda {
+	background-color:#DCD9C0;
+}
+.navVai {
+	position:absolute;
+	top:382px;
+	right:12px;
+}
+.navVolta {
+	position:absolute;
+	top:382px;
+	right:85px;
+}
