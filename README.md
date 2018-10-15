@@ -23,4 +23,4 @@ https://glacial.gitlab.io/2009-diario-do-nordeste/
 
 ---
 
-![screenshot](design/02-page.jpg)
+![screenshot](design/03-single.jpg)
